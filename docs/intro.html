@@ -9,11 +9,25 @@ header {
 	background-color: black;
 	color: white;
   padding: 10px;
+	overflow: auto;
 }
 
-header h2, header h3{
+header h1{
 	display: inline-block;
 	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+	font-size: 2.5em;
+}
+
+.subject-name{
+	float: right;
+	text-align: right;
+}
+
+.topic-name{
+	float: left;
+	text-align: left;
 }
 
 a {
@@ -40,6 +54,14 @@ main{
 	position: absolute;
 	margin-left: 10%;
 	width: 80%;
+	display: block;
+}
+
+@media print{
+	main{
+		margin-left: 5%;
+		width: 90%;
+	}
 }
 
 hr {
@@ -55,14 +77,39 @@ img {
 	max-width: 90%;
 }
 
-.concept-group{
-	width: 100%;
+.concept-group, .concept-nav{
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+	float: left;
+}
+
+@media print{
+	.concept-group, .concept-nav{
+		width: 90%;
+		margin-left: 5%;
+	}
 }
 
 .concept-name {
+	width: 98%;
+	text-align: right;
+	float: right;
+	color: black;
+	border-bottom: 2px solid black;
+	padding: 1%;
+	font-size: 2em;
+}
+
+.break-before, .break-after{
+	display: block;
 	width: 100%;
+	height: 5px;
 	float: left;
-	font-size: 1.5em;
+}
+
+.break-after{
+	page-break-after: always;
 }
 
 .page-group{
@@ -70,6 +117,18 @@ img {
 	font-size: 1.2em;
 	width: 50%;
 	float: left;
+}
+
+@media print{
+
+	.page-group{
+		width: 70%;
+		page-break-inside: avoid;
+	}
+
+	.prep{
+		font-size: 0.8em;
+	}
 }
 
 .page-name{
@@ -83,7 +142,12 @@ img {
 	float: left;
 	overflow: auto;
 	text-align: left;
-	overflow: auto;
+}
+
+@media print{
+	.note-group{
+		width: 30%;
+	}
 }
 
 .note {
@@ -100,6 +164,13 @@ img {
 	float: left;
 }
 
+@media print{
+	.writeup-group{
+		break-inside: avoid;
+		font-size: 0.9em;
+	}
+}
+
 .writeup{
 	width: 100%;
 	float: left;
@@ -107,7 +178,22 @@ img {
 	font-style: italic;
 	white-space: pre-line;
 }
-</style></head><body><header><h2><a href="index.html">digital-culture-2019</a></h2><h3>intro</h3></header><main><div class="main-container" id="writing-board"><div class="concept-buttons"></div><div class="concept-group"><h3 class="concept-name">housekeeping</h3><div class="concept-context">all the course info is on the website.</div><div class="page-group"><h3 class="page-name">digital culture 2019</h3><div class="prep note" concept="0">welcome!</div></div><div class="note-group"><div class="prep note" concept="0"></div></div><div class="writeup-group"><div class="prep writeup" concept="0">hello, everyone.</div></div><div class="page-group"><h3 class="page-name">plan for today</h3><div class="prep note" concept="0">introduction (me)</div><div class="prep note" concept="0">introductions (you)</div><div class="prep note" concept="0">introduction (this class)</div><div class="prep note" concept="0">introduction (digital inquiry)</div><div class="prep note" concept="0">choosing topics</div><div class="prep note" concept="0">examples of digital inquiries</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div></div><hr><div class="concept-group"><h3 class="concept-name">introductions</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">me</h3><div class="prep note" concept="1">pierre depaz (pierre.depaz@sciencespo.fr)</div><div class="prep note" concept="1">nyu interactive media arts (ny &gt; abu dhabi &gt; berlin)</div><div class="prep note" concept="1">open society foundations</div><div class="prep note" concept="1">sorbonne / mit</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">more info at https://pierredepaz.net</div></div><div class="page-group"><h3 class="page-name">you</h3><div class="prep note" concept="1">name, origin</div><div class="prep note" concept="1">and an aspect of digital culture which personally affects you</div></div><div class="note-group"><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">this class</h3><div class="prep note" concept="1">digital culture</div><div class="prep note" concept="1">what is digital?</div></div><div class="note-group"><div class="prep note" concept="1">everything</div><div class="prep note" concept="1">cyberspace</div><div class="prep note" concept="1">information</div><div class="prep note" concept="1"></div></div><div class="writeup-group"><div class="prep writeup" concept="1">the digital, in this course, is not going to refer exclusively to the discipline of computer science, or to software engineering. the digital is the interweaving of technical apparatuses, such as code, with the complexity of social, economical, and cultural influences. the digital becomes culture when it becomes enters into a dialogue with human choices and preferences
+
+@media print{
+
+	* {
+		float: none !important;
+	}
+
+	.break-before{
+		page-break-before: always !important;
+	}
+
+	.break-after{
+		page-break-after: always !important;
+	}
+}
+</style></head><body><header><h1 class="topic-name">intro</h1><h1 class="subject-name"><a href="index.html">digital-culture-2019</a></h1></header><div class="concept-nav"><h1>summary</h1><ul><a href="#housekeeping">housekeeping</a></ul><ul><a href="#introductions">introductions</a></ul><ul><a href="#digital inquiry">digital inquiry</a></ul><ul><a href="#inspiration">inspiration</a></ul><ul><a href="#next week">next week</a></ul></div><div class="concept-group"><h3 class="concept-name" id="housekeeping">housekeeping</h3><div class="concept-context">all the course info is on the website.</div><div class="page-group"><h3 class="page-name">digital culture 2019</h3><div class="prep note" concept="0">welcome!</div></div><div class="note-group"><div class="prep note" concept="0"></div></div><div class="writeup-group"><div class="prep writeup" concept="0">hello, everyone.</div></div><div class="page-group"><h3 class="page-name">plan for today</h3><div class="prep note" concept="0">introduction (me)</div><div class="prep note" concept="0">introductions (you)</div><div class="prep note" concept="0">introduction (this class)</div><div class="prep note" concept="0">introduction (digital inquiry)</div><div class="prep note" concept="0">choosing topics</div><div class="prep note" concept="0">examples of digital inquiries</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="introductions">introductions</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">me</h3><div class="prep note" concept="1">pierre depaz (pierre.depaz@sciencespo.fr)</div><div class="prep note" concept="1">nyu interactive media arts (ny &gt; abu dhabi &gt; berlin)</div><div class="prep note" concept="1">open society foundations</div><div class="prep note" concept="1">sorbonne / mit</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">more info at https://pierredepaz.net</div></div><div class="page-group"><h3 class="page-name">you</h3><div class="prep note" concept="1">name, origin</div><div class="prep note" concept="1">and an aspect of digital culture which personally affects you</div></div><div class="note-group"><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div><div class="prep note" concept="1"></div></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">this class</h3><div class="prep note" concept="1">digital culture</div><div class="prep note" concept="1">what is digital?</div></div><div class="note-group"><div class="prep note" concept="1">everything</div><div class="prep note" concept="1">cyberspace</div><div class="prep note" concept="1">information</div><div class="prep note" concept="1"></div></div><div class="writeup-group"><div class="prep writeup" concept="1">the digital, in this course, is not going to refer exclusively to the discipline of computer science, or to software engineering. the digital is the interweaving of technical apparatuses, such as code, with the complexity of social, economical, and cultural influences. the digital becomes culture when it becomes enters into a dialogue with human choices and preferences
 
 as the science-fiction writer philip k. dick put it very elegantly, &quot;science-fiction is not about inventing cars, it's about inventing traffic jams&quot;. the digital is not just about numbers, then, but about how we use numbers in our society today, and how those numbers affect human behaviour.
 
@@ -135,7 +221,7 @@ in a more diffuse way, we shape digital systems through the complex interactions
 
 there is no clear-cut boundary between these two dynamics, and understanding digital culture means understanding how and when each of them are at play.</div></div><div class="page-group"><h3 class="page-name">class website</h3><div class="prep note" concept="1"><a href="https://github.com/periode/digital-culture-2019">github.com/periode/digital-culture-2019</a></div><div class="prep note" concept="1">this is where you will find all information about the course</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">this website will be updated every week with class notes, links and any code that we might have written during class.
 
-go to the wiki section (at the top) to find the syllabus, weekly assignments and any resources we've mentioned in class.</div></div><div class="page-group"><h3 class="page-name">break</h3><div class="prep note" concept="1">10'</div><div class="prep note" concept="1">start thinking about topics related to digital culture that you're interested in</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div></div><hr><div class="concept-group"><h3 class="concept-name">digital inquiry</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">what?</h3><div class="prep note" concept="2">a question about the consequences of having lives intertwined with digital aparatuses</div><div class="prep note" concept="2">some original research</div><div class="prep note" concept="2">a final submission as a website</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">your digital inquiry should start with a question about how digital technology affects the ways of being and the ways of acting of social groups or how social groups use and influence the development of digital technology.
+go to the wiki section (at the top) to find the syllabus, weekly assignments and any resources we've mentioned in class.</div></div><div class="page-group"><h3 class="page-name">break</h3><div class="prep note" concept="1">10'</div><div class="prep note" concept="1">start thinking about topics related to digital culture that you're interested in</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="digital inquiry">digital inquiry</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">what?</h3><div class="prep note" concept="2">a question about the consequences of having lives intertwined with digital aparatuses</div><div class="prep note" concept="2">some original research</div><div class="prep note" concept="2">a final submission as a website</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">your digital inquiry should start with a question about how digital technology affects the ways of being and the ways of acting of social groups or how social groups use and influence the development of digital technology.
 
 from that question, you should gather both a bibliography of secondary sources (texts that talk about the issues that you will be working with) as well as primary sources (information that you've gathered on your own, through online forms, interviews, data scraping, etc.).
 
@@ -149,7 +235,7 @@ your exploration can also include audio and/or video through platforms such as i
 
 finally, some programming might be useful for some of your explorations, but the main point of this class is going to be to familiarize you with the basics of programming.</div></div><div class="page-group"><h3 class="page-name">topics</h3><div class="prep note" concept="2">give one or two topics you would be interested in</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">while you might start with broad topics (data processing, privacy, communities), it is very important to narrow them down to specific issues in identifiable social groups and locations.
 
-from data processing, one could inquire about the profile of data scientists in french startups. from privacy, one could ask questions about the privacy awareness and practices of university students in the campus of menton. from communities, one could look into the whatsapp groups set up by filipino service workers abroad.</div></div><div class="page-group"><h3 class="page-name">groups</h3><div class="prep note" concept="2">groups of 4 maximum</div></div><div class="note-group"><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">timeline</h3><div class="prep note" concept="2">october 12 - inquiry summary</div><div class="prep note" concept="2">november 9 - update on your exploration</div><div class="prep note" concept="2">november 16 - present your inquiry in class</div><div class="prep note" concept="2">december 8 - submit your final version</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">the presentation on november 16th will allow you to share the work you've done so far, and to gather feedback from yout peers and your instructor. you will then have until december 8th to implement that feedback -if you wish to do so- and hand in a final version which will then be graded.</div></div></div><hr><div class="concept-group"><h3 class="concept-name">inspiration</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">multimedia</h3><div class="prep note" concept="3"><a href="https://soundcloud.com/arte-radio-1/sets/crackopolis">arte - crackopolis</a></div><div class="prep note" concept="3"><a href="https://www.instagram.com/mturkpoems/">mturk poems</a></div><div class="prep note" concept="3"><a href="https://www.youtube.com/playlist?list=PLeecYyVMY9v36AjYlX2F5961-aBvVIrQx">youtube channel - plastic chairs</a></div></div><div class="note-group"><div class="prep note" concept="3"></div></div><div class="writeup-group"><div class="prep writeup" concept="3">these are examples of how commercial platforms can be used to broadcast research and highlight topics in non-traditional ways.
+from data processing, one could inquire about the profile of data scientists in french startups. from privacy, one could ask questions about the privacy awareness and practices of university students in the campus of menton. from communities, one could look into the whatsapp groups set up by filipino service workers abroad.</div></div><div class="page-group"><h3 class="page-name">groups</h3><div class="prep note" concept="2">groups of 4 maximum</div></div><div class="note-group"><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div><div class="prep note" concept="2"></div></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">timeline</h3><div class="prep note" concept="2">october 12 - inquiry summary</div><div class="prep note" concept="2">november 9 - update on your exploration</div><div class="prep note" concept="2">november 16 - present your inquiry in class</div><div class="prep note" concept="2">december 8 - submit your final version</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">the presentation on november 16th will allow you to share the work you've done so far, and to gather feedback from yout peers and your instructor. you will then have until december 8th to implement that feedback -if you wish to do so- and hand in a final version which will then be graded.</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="inspiration">inspiration</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">multimedia</h3><div class="prep note" concept="3"><a href="https://soundcloud.com/arte-radio-1/sets/crackopolis">arte - crackopolis</a></div><div class="prep note" concept="3"><a href="https://www.instagram.com/mturkpoems/">mturk poems</a></div><div class="prep note" concept="3"><a href="https://www.youtube.com/playlist?list=PLeecYyVMY9v36AjYlX2F5961-aBvVIrQx">youtube channel - plastic chairs</a></div></div><div class="note-group"><div class="prep note" concept="3"></div></div><div class="writeup-group"><div class="prep writeup" concept="3">these are examples of how commercial platforms can be used to broadcast research and highlight topics in non-traditional ways.
 
 the arte podcast is interesting in its form, through the sound design (additional music in the background at the opening and ending) and the editing (just right length of pauses), but also in the organization of content. the episodes are short and thematic, exploring an individual perspective between social needs and phenomena (love, friendship, housing, etc.) and the recurring subject of drug abuse.
 
@@ -157,8 +243,8 @@ the mturk poems uses the instagram platforms in order to highlight in a somewhat
 
 interactive pieces are also becoming more and more popular, since they allow the reader to experiment themselves with the data that is presented to them and to come to their own conclusions with regards to the different situations presented to them. this sort of design builds from the constructivist learning theory of jean piaget (i.e. learning by doing).</div></div><div class="page-group"><h3 class="page-name">programming</h3><div class="prep note" concept="3"><a href="https://dictatoralert.org/">dictator alert</a></div><div class="prep note" concept="3"><a href="https://forensic-architecture.org/investigation/herbicidal-warfare-in-gaza">herbicidal warfare in gaza</a></div><div class="prep note" concept="3"><a href="https://arxiv.org/pdf/1609.01996.pdf">(lack of) representation of non western world in process of creation of web standards</a></div></div><div class="note-group"><div class="prep note" concept="3"></div><div class="prep note" concept="3"></div></div><div class="writeup-group"><div class="prep writeup" concept="3">dictator alert and herbicidal warfare are two projects of how original data can be gathered in order to form evidence with regards to a particular question (for dictator alert) or event (for herbicidal warfare). the point here is to access data streams and correlate them in a way that allows a question to be asked: why are azerbaidjiani government planes landing so often in geneva? why is pesticide being spread out at the border in gaza, seemingly coming from the israeli side of the border?
 
-the third example, while a classic paper, is a very concise exploration into an issue of digital culture. through simple programming, the author gathered email addresses and names of W3C members publicly discussing web standards, and charted their geographical location and gender. spoilers: the internet is made by men from europe and the us.</div></div><div class="page-group"><h3 class="page-name">past semesters</h3><div class="prep note" concept="3"><a href="https://fonio.medialab.sciences-po.fr/knuth/read/138f46f9-6e50-4f32-9254-46052fb5f98d">emojis as communication</a></div><div class="prep note" concept="3"><a href="https://fonio.medialab.sciences-po.fr/keller/read/ab88a39a-c5aa-48b0-818d-74df7209ec48">fashion houses on instagram</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">these are examples from past semesters, including videos, charts and instagram accounts. other groups worked with podcasts, wordpress websites and twitter accounts.</div></div></div><hr><div class="concept-group"><h3 class="concept-name">next week</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">homework</h3><div class="prep note" concept="4">watch - s1e1, s1e2, s1e4, s1e6</div><div class="prep note" concept="4"><a href="https://www.eff.org/cyberspace-independence">read - a declaration of independence of cyberspace</a></div><div class="prep note" concept="4"><a href="https://www.harvardmagazine.com/2000/01/code-is-law-html">read - code is law</a></div><div class="prep note" concept="4"><a href="https://atom.io/">download - atom</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4">next week we'll discuss the origin of the internet and the different philosophies that have shaped it over three decades. to start the conversation, there are two readings:
+the third example, while a classic paper, is a very concise exploration into an issue of digital culture. through simple programming, the author gathered email addresses and names of W3C members publicly discussing web standards, and charted their geographical location and gender. spoilers: the internet is made by men from europe and the us.</div></div><div class="page-group"><h3 class="page-name">past semesters</h3><div class="prep note" concept="3"><a href="https://fonio.medialab.sciences-po.fr/knuth/read/138f46f9-6e50-4f32-9254-46052fb5f98d">emojis as communication</a></div><div class="prep note" concept="3"><a href="https://fonio.medialab.sciences-po.fr/keller/read/ab88a39a-c5aa-48b0-818d-74df7209ec48">fashion houses on instagram</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">these are examples from past semesters, including videos, charts and instagram accounts. other groups worked with podcasts, wordpress websites and twitter accounts.</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="next week">next week</h3><div class="concept-context"></div><div class="page-group"><h3 class="page-name">homework</h3><div class="prep note" concept="4">watch - s1e1, s1e2, s1e4, s1e6</div><div class="prep note" concept="4"><a href="https://www.eff.org/cyberspace-independence">read - a declaration of independence of cyberspace</a></div><div class="prep note" concept="4"><a href="https://www.harvardmagazine.com/2000/01/code-is-law-html">read - code is law</a></div><div class="prep note" concept="4"><a href="https://atom.io/">download - atom</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4">next week we'll discuss the origin of the internet and the different philosophies that have shaped it over three decades. to start the conversation, there are two readings:
 
 - john perry barlow, founding member of activist group &quot;electronic frontier foundation&quot; writes an open letter to the nation-states of the world, stating that cyberspace is off-limits to their jurisdiction.
 
-- lawrence lessing, law professor and creator of creative commons, writes about the two kinds of code that rule the world: east coast code (legal code) and west coast code (machine code), and how both of those enforce and enframe human behavior.</div></div></div><hr></div></main></body></html>
+- lawrence lessing, law professor and creator of creative commons, writes about the two kinds of code that rule the world: east coast code (legal code) and west coast code (machine code), and how both of those enforce and enframe human behavior.</div></div></div><br><div class="break-after" style="page-break-after:always;"></div></body></html>
