@@ -2,15 +2,13 @@
 Course resources for Digital Culture at Sciences Po Menton 2019
 
 ## instructor
-- [pierre depaz](mailto:pierre.depaz@sciencespo.fr)
+[pierre depaz](mailto:pierre.depaz@sciencespo.fr)
 
 ## class notes
-
-the class notes can be found here: [periode.github.io/digital-culture-2019](https://periode.github.io/digital-culture-2019/)
+[periode.github.io/digital-culture-2019](https://periode.github.io/digital-culture-2019/)
 
 ## class syllabus
-
-[link](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf)
+[pdf](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf)
 
 ## class description
 
