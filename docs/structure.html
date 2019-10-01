@@ -1,0 +1,334 @@
+<!DOCTYPE html><html><head><meta charset="utf8"><title>digital-culture-2019 | structure</title><style>body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter UI', Trebuchet MS;
+	background-color: white;
+}
+
+header {
+	background-color: black;
+	color: white;
+  padding: 10px;
+	overflow: auto;
+}
+
+header h1{
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+	font-size: 2.5em;
+}
+
+@media print{
+	header h1{
+		font-size: 1em;
+	}
+}
+
+.subject-name{
+	float: right;
+	text-align: right;
+}
+
+.topic-name{
+	float: left;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+  color: #e77607;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+  color: #b25900;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 3px;
+}
+
+main{
+	position: absolute;
+	margin-left: 10%;
+	width: 80%;
+	display: block;
+}
+
+@media print{
+	main{
+		margin-left: 5%;
+		width: 90%;
+	}
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+	float: left;
+	width: 100%;
+}
+
+img {
+	max-height: 300px;
+	max-width: 90%;
+}
+
+.concept-group{
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+	float: left;
+}
+
+.concept-nav{
+	width: 30%;
+	float: right;
+	margin-right: 10%;
+}
+
+.overview-holder{
+	float: left;
+	width: 38%;
+	margin-left: 10%;
+}
+
+@media print{
+	.concept-group, .concept-nav{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+.concept-name {
+	width: 98%;
+	text-align: right;
+	float: right;
+	color: black;
+	border-bottom: 2px solid black;
+	padding: 1%;
+	font-size: 2em;
+}
+
+.break-before, .break-after{
+	display: block;
+	width: 100%;
+	height: 5px;
+	float: left;
+}
+
+.break-after{
+	page-break-after: always;
+}
+
+.page-group{
+	position: relative;
+	font-size: 1.2em;
+	width: 50%;
+	float: left;
+}
+
+@media print{
+
+	.page-group{
+		width: 70%;
+		page-break-inside: avoid;
+	}
+
+	.prep{
+		font-size: 0.8em;
+	}
+}
+
+.page-name{
+	width: 100%;
+	float: left;
+}
+
+.note-group{
+	position: relative;
+	width: 50%;
+	float: left;
+	overflow: auto;
+	text-align: left;
+}
+
+@media print{
+	.note-group{
+		width: 30%;
+	}
+}
+
+.note {
+	position: relative;
+	margin-bottom: 10px;
+	width: 100%;
+	overflow: auto;
+}
+
+.writeup-group{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+@media print{
+	.writeup-group{
+		break-inside: avoid;
+		font-size: 0.9em;
+	}
+}
+
+.context{
+	white-space: pre-line;
+	border: 2px solid black;
+	width: 45%;
+	padding: 5px;
+	float: right;
+}
+
+@media print{
+	.context{
+		width: 100%
+	}
+}
+
+.writeup{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	font-style: italic;
+	white-space: pre-line;
+}
+
+.web-only{
+	display: inherit;
+}
+
+.print-only{
+	display: none;
+}
+
+@media print{
+	* {
+		float: none !important;
+	}
+
+	.break-before{
+		page-break-before: always !important;
+	}
+
+	.break-after{
+		page-break-after: always !important;
+	}
+
+	.web-only{
+		display: none;
+	}
+
+	.print-only{
+		display: inline-block;
+	}
+}
+</style></head><body><header><h1 class="topic-name">structure</h1><h1 class="subject-name"><a href="index.html">digital-culture-2019</a></h1></header><div class="overview-holder"><h1>overview</h1><p>This class is going to focus on __how__ the internet works, what are the protocols that define it, what are the people that have designed it and what are the organizations that maintain it.
+
+In a second part, we will focus on an introduction to HTML, CSS and JavaScript.</p></div><div class="concept-nav"><h1>summary</h1><ul><a class="web-only" href="#housekeeping">housekeeping</a><li class="print-only">housekeeping</li></ul><ul><a class="web-only" href="#readings">readings</a><li class="print-only">readings</li></ul><ul><a class="web-only" href="#internet history">internet history</a><li class="print-only">internet history</li></ul><ul><a class="web-only" href="#internet protocol">internet protocol</a><li class="print-only">internet protocol</li></ul><ul><a class="web-only" href="#internet governance">internet governance</a><li class="print-only">internet governance</li></ul><ul><a class="web-only" href="#internet languages">internet languages</a><li class="print-only">internet languages</li></ul><ul><a class="web-only" href="#break">break</a><li class="print-only">break</li></ul><ul><a class="web-only" href="#practice">practice</a><li class="print-only">practice</li></ul><ul><a class="web-only" href="#homework">homework</a><li class="print-only">homework</li></ul><br></div><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="housekeeping">housekeeping</h3><div class="context"></div><div class="page-group"><h3 class="page-name">digital culture - structure</h3><div class="prep note" concept="0">welcome!</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">plan for today</h3><div class="prep note" concept="0">history of the internet</div><div class="prep note" concept="0">protocols of the internet</div><div class="prep note" concept="0">governance of the internet</div><div class="prep note" concept="0">html and css</div><div class="prep note" concept="0">fonio</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">groups</h3><div class="prep note" concept="0">for next week: send me the main question you intend to ask</div><div class="prep note" concept="0">in two weeks: exploration writeup</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="readings">readings</h3><div class="context">All watched over by machines of love and grace, a BBC documentary about the ideals which underpin the computer revolution: https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace_(TV_series)
+
+The Internet's Own Boy, a documentary about Aaron Swartz, the creator of Reddit and RSS, and about how he committed suicide over an IP lawsuit:
+https://www.youtube.com/watch?v=9vz06QO3UkQ
+
+https://www.eff.org/
+
+</div><div class="page-group"><h3 class="page-name">dreams of networks</h3><div class="prep note" concept="1">do you feel free when you're online?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">Free from what? from whom? Freedom can be associated either to immediate restraints, or to subsequent consequences. The &quot;spontaneous&quot; and &quot;worldwide&quot; development (or so it seemed) of the internet made the early users feel that there was some ineluctability to the spread of communication, knowledge and information, as illustrated by the motto &quot;information wants to be free&quot;.
+
+The other component is anonymity. At some point, it was impossible to know who was saying what, and instead of a terrifying nightmare of potential terrorist activity that this would be seen as in the 21st century, this was considered an opportunity to erase all inequalities: race, gender, income, etc. Whenever you're online, the only thing that matters is what you know, and what you say.</div></div><div class="page-group"><h3 class="page-name">electronic frontier foundation</h3><div class="prep note" concept="1">can a cyberspace be independent?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">The first appearance of the term cyberspace is in William Gibson's sci-fi novel Neuromancer, which had a huge impact on pop culture then, and now (e.g. The Matrix was heavily influenced by the style and world of Neuromancer). In this novel, groups of self-organized individuals, hackers, travel in a digital (yet, three-dimensional) world in order to fight against the oppression of corporations. Cyberspace, then, is first and foremost a fantasy. But this fantasy has roots in deeper, broader dreams: the New Frontier, the communes of the 1960s and early libertarian thinking.
+
+ThIndependent from what? For Barlow, it's obviously being independent from nation-states, but as we have seen last week, there are different forces at play when it comes to the development of technology: governments are one of them, along with the military and commerce, but there are also two others: academica, and us. This class is going to specifically address the influence of academia on the development of the internet.
+
+</div></div><div class="page-group"><h3 class="page-name">east vs. west codes</h3><div class="prep note" concept="1">how does code act as a law?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">The west coast code acts as law insofar as it is always either allowing or denying a particular state or behaviour. Without code, in the cyberspace, there is nothing; no jurisprudence, only decrees.
+
+The question, then, is not whether or not we can be independent from external forces in cyberspace, but rather how do we actually hold accountable the forces that do.</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="internet history">internet history</h3><div class="context">first mention of the word internet: https://tools.ietf.org/html/rfc675
+
+man-computer symbiosis, dreams of augmenting our intellect: http://worrydream.com/refs/Licklider%20-%20Man-Computer%20Symbiosis.pdf
+
+written by some of its inventors: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
+
+Add the Cernettes</div><div class="page-group"><h3 class="page-name">history of the internet</h3><div class="prep note" concept="2">what's the difference between the internet and the web?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">The development of the Internet precedes that of the Web by about 20 years. The internet therefore provides the infrastructure to enable the Web, and a lot of other applications (email, file transfer, torrenting, etc.). While the Internet was explicitly funded by the U.S. military, the Web was funded by the CERN, a nuclear research agency in Switzerland.</div></div><div class="page-group"><h3 class="page-name">between academia and the miliary</h3><div class="prep note" concept="2">&quot;A network of such centers, connected to one another by wide-band communication lines [...] the functions of present-day libraries together with anticipated advances in information storage and retrieval and symbiotic functions suggested earlier in this paper &quot; - J.C.R. Licklider</div><div class="prep note" concept="2">a decentralized network can withstand nuclear threats</div><div class="prep note" concept="2">arpanet + tcp/ip = internet</div><div class="prep note" concept="2"><img src="digital-culture-2019_assets/arpanet.jpg" alt="arpanet.jpg"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2">The Internet was first and foremost the product of research in the field of machine communications: if phone lines weren't good enough for multiplexing (aka many-to-many communication), they needed to find something else. That something else became packet-switching, a technique which enables messages to take multiple, independent routes.
+
+The diagram above is the earliest Internet known, and indicates who (universities: UC Los Angeles, UC Santa Barbara, Stanford Research Institute and University of Utah) is running what kind of computers).</div></div><div class="page-group"><h3 class="page-name">the world wide web</h3><div class="prep note" concept="2">the web was built on top of the internet</div><div class="prep note" concept="2">follows a long tradition of organizing information (hypertext)</div><div class="prep note" concept="2">internet + hypertext = web</div><div class="prep note" concept="2"><a href="http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html">the first website</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="internet protocol">internet protocol</h3><div class="context">an excellent book on how protocol makes control survive the move towards decentralization (aka HTTP meets Foucault): https://github.com/periode/politics-of-code/blob/master/assets/readings/05-government/ProtocolIntroduction.pdf
+
+A visualization of packet-switching, the technique underlying the web: https://en.wikipedia.org/wiki/Packet_switching#/media/File:Packet_Switching.gif
+
+https://en.wikipedia.org/wiki/Project_Xanadu
+
+Project Mundaneum, the first virtual library:
+http://www.virtualknowledgestudio.nl/staff/charles-van-den-heuvel/vdheuvel-mundaneum.pdf
+https://www.nytimes.com/2008/06/17/health/17iht-17mund.13760031.html
+
+</div><div class="page-group"><h3 class="page-name">the &quot;talk&quot;</h3><div class="prep note" concept="3"><img src="digital-culture-2019_assets/thetalk.png" alt="thetalk.png"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">So, this was a broad historical overview, let us now dive deeper into the practicalities of it. It might seem a stretch, but the picture above illustrates quite clearly the influence of knowledge on power and agency.
+
+The same way that lack of information about reproductive health maintains a system of control on those who cannot understand and act upon their own bodies, a lack of knowledge about technical systems makes us more vulnerable to its pitfalls.</div></div><div class="page-group"><h3 class="page-name">a stack of protocols</h3><div class="prep note" concept="3">tcp/ip -&gt; addresses (machine version)</div><div class="prep note" concept="3">dns -&gt; addresses (human version)</div><div class="prep note" concept="3">http/smtp/ftp/irc -&gt; itinerary</div><div class="prep note" concept="3">html -&gt; display instructions</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">The global network has multiple layers. The first one, not mentioned above, is the link layer. The link layer is the set of physical infrastructures which underpin everything else. Aka cables. Those cables are particulary vulnerable to two things: sharks and the NSA.
+
+Then comes IP (where do I go), then TCP (do I still make sense when I'm there), then everything else (what is it that i was trying to say in the first place).
+
+This layer scheme is quite recurrent in digital technology, which often consists on layers of abstractions relying on top of each other.</div></div><div class="page-group"><h3 class="page-name">tcp/ip</h3><div class="prep note" concept="3">transmission control protocol</div><div class="prep note" concept="3">how do we make sure that whatever we're sending gets there in one piece?</div><div class="prep note" concept="3">internet protocol</div><div class="prep note" concept="3">how do i know where i'm going, and how to get there?</div><div class="prep note" concept="3"><img src="digital-culture-2019_assets/birthplaque.jpg" alt="birthplaque.jpg"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">IP (Internet Protocol) is the set of behaviours which allows to know where a computer is on a network. It is essentially an address system along with a network of roads. In an example of going from A to B, it first defines what it means to be A, and to be B (i.e. it assigns addresses, of the type 127.234.231.9), and then it establishes multiple paths between A and B, by breaking up a given message from A to B and having different parts of that message go through different paths to get to their destination.
+
+The job of TCP, then, is to make sure that, once those packets have gotten to B, none of them are missing, and they can be reliably re-assembled in order to make sense of that message. It does so by structuring the data in a very particular way (see resources for a detailed explanation).
+
+Those two protocols were designed by Vint Cerf and Bob Kahn at UCLA in 1967, and the first packet sent according to these protocols was sent on October 29, 1969. Their message actually crashed the whole network. In contrast, the first message ever sent via the telegram was &quot;What Hath God Wrought?&quot; -quite visionary for the time.</div></div><div class="page-group"><h3 class="page-name">dns</h3><div class="prep note" concept="3">domain name system</div><div class="prep note" concept="3">how the hell am i supposed to remember all these numbers?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">Because IP addresses are just numbers, the DNS protocol convert these numbers in human-memorable means: words, separated by dots. It starts with a TLD (top level domain), such as __com__, then goes down one level, such as __google__, then another level, such as __mail__, for a complete Domain Name of __mail.google.com__</div></div><div class="page-group"><h3 class="page-name">http</h3><div class="prep note" concept="3">hypertext transfer protocol</div><div class="prep note" concept="3">how do i know the correct way to interpret a message?</div><div class="prep note" concept="3">(other protocols on the application layer: simple mail transfer protocol, file transfer protocol, etc.)</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">HTTP is the protocol in which &quot;clients&quot; and &quot;servers&quot; first appear. It functions as a request, and a response, in order to fetch some information through some automated way from a remote machine.</div></div><div class="page-group"><h3 class="page-name">html</h3><div class="prep note" concept="3">hypertext markup language</div><div class="prep note" concept="3">how do i know the correct way to display the message's contents?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">This is where we technically leave the realm of the internet and get into &quot;userland&quot;, the realm of humans, and what we see on our screens. However, HTML is not separable from the development of HTTP, since HTTP was designed to retrieve HTML documents.
+
+HTML documents, ML meaning Markup Language, is a way to organize information in a consistent way so that it can be retrieved reliably. Previous inspirations include Ted Nelson's Xanadu project, and Vanevar Bush's Memex (see resources)</div></div><div class="page-group"><h3 class="page-name">typical circuit</h3><div class="prep note" concept="3">a &quot;client&quot; asks  for a webpage to a &quot;server&quot;.</div><div class="prep note" concept="3">first, they type the URL, and DNS translates it into an IP address</div><div class="prep note" concept="3">second, your computer sends a HTTP request to that IP address</div><div class="prep note" concept="3">third, the &quot;server&quot; sends back a HTTP response (with an HTML document)</div><div class="prep note" concept="3">last, your computer interprets the document according to the HTML rules</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">example</h3><div class="prep note" concept="3">pierre runs a web server on his computer</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3">The webserver is a very simple application written using Python and Flask: https://palletsprojects.com/p/flask/
+
+You can find the code in the folder 2_structure/ of the class website: http://github.com/periode/digital-culture-2019/tree/master/2_structure</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="internet governance">internet governance</h3><div class="context">https://internetsociety.org
+
+https://w3.org/Consortium
+
+https://ietf.org
+
+https://icann.org</div><div class="page-group"><h3 class="page-name">internet governance</h3><div class="prep note" concept="4">IS - Internet Society</div><div class="prep note" concept="4">IETF - Internet Engineering Task Force</div><div class="prep note" concept="4">W3C - World Wide Web Consortium</div><div class="prep note" concept="4">ICANN - Internet Corporation for Assigned Names and Numbers</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div><div class="page-group"><h3 class="page-name">stakeholders</h3><div class="prep note" concept="4">private companies</div><div class="prep note" concept="4">research universities</div><div class="prep note" concept="4">professionals' associations</div><div class="prep note" concept="4"><a href="https://www.w3.org/Consortium/Member/List">members of the W3C</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="internet languages">internet languages</h3><div class="context">the thing to keep in mind when it comes to learning things about the internet, or about computers in general, is that the best place to find a documentation about any digital system is online. for HTML and CSS, there are two essential resources:
+
+the W3Schools website, very good for beginners and entry level.
+
+https://w3schools.com
+
+the MDN (mozilla developer network) website, a little more elaborate.
+
+https://developer.mozilla.org</div><div class="page-group"><h3 class="page-name">html</h3><div class="prep note" concept="5">hyper text markup language</div><div class="prep note" concept="5">a markup language is a language which describes __what__ the content is</div><div class="prep note" concept="5">&lt;tagname attribute=&quot;value&quot;&gt; innerText &lt;/tagname&gt;</div><div class="prep note" concept="5">&lt;p class=&quot;introduction&quot;&gt; Lorem ipsum dolores sit amet... &lt;/p&gt;</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5">HTML is essentially a set of tags, which the browser uses to render the document appropriately. For example, a &lt;p&gt; tag describes a paragraph, so the browser will add a bit of white space at the bottom of that block. Because tags denote blocks, they need to be __opened__ and __closed__. Closing a tag is as simple as including a forward slash ( / ) before the tag:
+
+&lt;p&gt; lorem &lt;/p&gt;
+
+An &lt;a&gt; tag describes an anchor, i.e. a web link, and needs an __attribute__ to function properly. Attributes are specific features of tags, which can vary from tag to tag. We might want all the &lt;p&gt; tags on a page to behave the same, but probably not all the &lt;a&gt; tags to send us to the same link. For that, we give a __value__ to the __attribute__ of the tag. The name is the attribute which takes care of where the &lt;a&gt; will link to is called href:
+
+&lt;a href=&quot;http://wikipedia.org&quot;&gt;click here to go to wikipedia&lt;/a&gt;
+
+A last attribute which we will introduce is the __class__ attribute. This attribute allows us to connect the HTML to the CSS. In other words, it allows us to connect WHAT things are (a paragraph, a link, a title), with HOW they should look (bold, big, justified, etc.).</div></div><div class="page-group"><h3 class="page-name">css</h3><div class="prep note" concept="5">cascading style sheets</div><div class="prep note" concept="5">a style sheet is a document which indicates __how__ things should look</div><div class="prep note" concept="5">selector { attribute: value }</div><div class="prep note" concept="5">p { color: green }</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5">CSS is a set of instructions which comes with an HTML file. We can integrate CSS in multiple ways to the HTML document, either through inline CSS (adding a __style=&quot;&quot;__ attribute directly inside the tag), having its own &lt;style&gt; tag in the HTML file, or having it all in a separate file, and telling the HTML document where to find that file.
+
+But in the end, CSS always does the same thing: it states how a particular HTML tag should look like. This can include fonts, colors, animations, positioning, etc.
+
+It does that by having a __selector__, which is followed by curly brackets, within which each __attribute__ is given a __value__. After each value, you must tell the browser that you're done by adding a semi-colon ( ; ).
+
+For example, making a title red and underlined would look like this:
+
+h1 {
+  color: red;
+  text-decoration: underline;
+}</div></div><div class="page-group"><h3 class="page-name">developer tools</h3><div class="prep note" concept="5">let's look at a real webpage with the developer tools of your browser</div><div class="prep note" concept="5">the developer tools allow you to manipulate the source code of any webpage on your browser</div><div class="prep note" concept="5">Tools &gt; Developer Tools...</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5">safari: If you don’t see the Develop menu in the menu bar, choose Safari &gt; Preferences, click Advanced, then “Show Develop menu in menu bar.”
+firefox: CTRL+ SHIFT + I
+chrome: CTRL + SHIFT + J
+internet explorer: F12 or Tools &gt; Developer Tools</div></div><div class="page-group"><h3 class="page-name">structure of a webpage</h3><div class="prep note" concept="5">every webpage has an &lt;html&gt;, a &lt;head&gt; and a &lt;body&gt;</div><div class="prep note" concept="5">&lt;head&gt; is what your browser needs to know</div><div class="prep note" concept="5">&lt;body&gt; is what you want to see</div><div class="prep note" concept="5">add a file example here</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5">This structure is called the DOM (Document Object Model), and it is by manipulating the DOM that most of interactivity happens on the web.
+
+Inside the &lt;head&gt; tag comes all of the &quot;meta&quot; information, such as where to find the CSS files, what kind of language encoding are you using (US, Arabic, Polish, etc.), the default zoom level for each device, etc.
+
+Inside the &lt;body&gt; tag comes everything else. That is, everything that we've seen above (&lt;p&gt;, &lt;a&gt;, etc.)</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="break">break</h3><div class="context"></div><div class="page-group"><h3 class="page-name">break</h3><div class="prep note" concept="6">10'</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="6"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="practice">practice</h3><div class="context"></div><div class="page-group"><h3 class="page-name">exercise</h3><div class="prep note" concept="7">write a simple, styled HTML page about your exploration with at least:</div><div class="prep note" concept="7">- a header</div><div class="prep note" concept="7">- a paragraph</div><div class="prep note" concept="7">- a link</div><div class="prep note" concept="7">- an image</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="7"></div></div><div class="page-group"><h3 class="page-name">fonio</h3><div class="prep note" concept="7">fonio is a platform developed by the sciencespo medialab, and is where you will be publishing your final project</div><div class="prep note" concept="7"><a href="https://fonio.medialab.sciences-po.fr/cirses/">fonio.medialab.sciences-po.fr/cirses/</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="7">This URL is specific to the class. You can create a story (i.e. your publication) and start working on it as easily as with a blog publisher like WordPress (fun fact: did you know that at least 25% of all websites on the internet are published by WordPress?).
+
+No worries, I won't be spying on your progress. But then again I could. But then again you wouldn't know. Welcome to the Internet in 2019 &lt;3</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="homework">homework</h3><div class="context"></div><div class="page-group"><h3 class="page-name">homework</h3><div class="prep note" concept="8">watch - s1e3, s3e1, s3e2, s4e3, s4e4, s6e6</div><div class="prep note" concept="8"><a href="https://github.com/periode/digital-culture-2019/blob/master/RestrictingDigitalSitesOfDissent.pdf">read - restricting digital sites of dissent: commercial social media and free expression</a></div><div class="prep note" concept="8"><a href="https://www.audacityteam.org/">install - audacity</a></div><div class="prep note" concept="8"><a href="https://www.openshot.org/">install - open shot</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="8"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div></body></html>

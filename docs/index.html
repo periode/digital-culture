@@ -20,6 +20,12 @@ header h1{
 	font-size: 2.5em;
 }
 
+@media print{
+	header h1{
+		font-size: 1em;
+	}
+}
+
 .subject-name{
 	float: right;
 	text-align: right;
@@ -77,11 +83,23 @@ img {
 	max-width: 90%;
 }
 
-.concept-group, .concept-nav{
+.concept-group{
 	width: 80%;
 	margin-left: 10%;
 	display: block;
 	float: left;
+}
+
+.concept-nav{
+	width: 30%;
+	float: right;
+	margin-right: 10%;
+}
+
+.overview-holder{
+	float: left;
+	width: 38%;
+	margin-left: 10%;
 }
 
 @media print{
@@ -171,6 +189,20 @@ img {
 	}
 }
 
+.context{
+	white-space: pre-line;
+	border: 2px solid black;
+	width: 45%;
+	padding: 5px;
+	float: right;
+}
+
+@media print{
+	.context{
+		width: 100%
+	}
+}
+
 .writeup{
 	width: 100%;
 	float: left;
@@ -179,8 +211,15 @@ img {
 	white-space: pre-line;
 }
 
-@media print{
+.web-only{
+	display: inherit;
+}
 
+.print-only{
+	display: none;
+}
+
+@media print{
 	* {
 		float: none !important;
 	}
@@ -192,5 +231,13 @@ img {
 	.break-after{
 		page-break-after: always !important;
 	}
+
+	.web-only{
+		display: none;
+	}
+
+	.print-only{
+		display: inline-block;
+	}
 }
-</style></head><body><header><h2>digital-culture-2019</h2></header><main><h1>course notes</h1><ol><li><a href="intro.html">intro</a></li></ol></main></body></html>
+</style></head><body><header><h2>digital-culture-2019</h2></header><main><p>full syllabus at: github.com/periode/digital-culture-2019</p><h1>course notes</h1><ol><li><a href="intro.html">intro</a></li><li><a href="structure.html">structure</a></li></ol></main></body></html>
