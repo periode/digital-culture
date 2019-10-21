@@ -1,0 +1,253 @@
+<!DOCTYPE html><html><head><meta charset="utf8"><title>digital-culture-2019 | platforms</title><style>body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter UI', Trebuchet MS;
+	background-color: white;
+}
+
+header {
+	background-color: black;
+	color: white;
+  padding: 10px;
+	overflow: auto;
+}
+
+header h1{
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+	font-size: 2.5em;
+}
+
+@media print{
+	header h1{
+		font-size: 1em;
+	}
+}
+
+.subject-name{
+	float: right;
+	text-align: right;
+}
+
+.topic-name{
+	float: left;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+  color: #e77607;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+  color: #b25900;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 3px;
+}
+
+main{
+	position: absolute;
+	margin-left: 10%;
+	width: 80%;
+	display: block;
+}
+
+@media print{
+	main{
+		margin-left: 5%;
+		width: 90%;
+	}
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+	float: left;
+	width: 100%;
+}
+
+img {
+	max-height: 300px;
+	max-width: 90%;
+}
+
+.concept-group{
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+	float: left;
+}
+
+.concept-nav{
+	width: 30%;
+	float: right;
+	margin-right: 10%;
+}
+
+.overview-holder{
+	float: left;
+	width: 38%;
+	margin-left: 10%;
+}
+
+@media print{
+	.concept-group, .concept-nav{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+.concept-name {
+	width: 98%;
+	text-align: right;
+	float: right;
+	color: black;
+	border-bottom: 2px solid black;
+	padding: 1%;
+	font-size: 2em;
+}
+
+.break-before, .break-after{
+	display: block;
+	width: 100%;
+	height: 5px;
+	float: left;
+}
+
+.break-after{
+	page-break-after: always;
+}
+
+.page-group{
+	position: relative;
+	font-size: 1.2em;
+	width: 50%;
+	float: left;
+}
+
+@media print{
+
+	.page-group{
+		width: 70%;
+		page-break-inside: avoid;
+	}
+
+	.prep{
+		font-size: 0.8em;
+	}
+}
+
+.page-name{
+	width: 100%;
+	float: left;
+}
+
+.note-group{
+	position: relative;
+	width: 50%;
+	float: left;
+	overflow: auto;
+	text-align: left;
+}
+
+@media print{
+	.note-group{
+		width: 30%;
+	}
+}
+
+.note {
+	position: relative;
+	margin-bottom: 10px;
+	width: 100%;
+	overflow: auto;
+}
+
+.writeup-group{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+@media print{
+	.writeup-group{
+		break-inside: avoid;
+		font-size: 0.9em;
+	}
+}
+
+.context{
+	white-space: pre-line;
+	border: 2px solid black;
+	width: 45%;
+	padding: 5px;
+	float: right;
+}
+
+@media print{
+	.context{
+		width: 100%
+	}
+}
+
+.writeup{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	font-style: italic;
+	white-space: pre-line;
+}
+
+.web-only{
+	display: inherit;
+}
+
+.print-only{
+	display: none;
+}
+
+@media print{
+	* {
+		float: none !important;
+	}
+
+	.break-before{
+		page-break-before: always !important;
+	}
+
+	.break-after{
+		page-break-after: always !important;
+	}
+
+	.web-only{
+		display: none;
+	}
+
+	.print-only{
+		display: inline-block;
+	}
+}
+</style></head><body><header><h1 class="topic-name">platforms</h1><h1 class="subject-name"><a href="index.html">digital-culture-2019</a></h1></header><div class="overview-holder"><h1>overview</h1><p>This session will focus on how these new means of communication have also allowed the development of new means of value production. From knowledge creation to on-demand services and sharing economies, these productions rely on both new and old forms of labor, now digitally mediated.
+
+This session will look at what role platforms have in the global economic system, particularly focusing on the place of the API (Application Programming Interface) as a means to interface workers, consumers and managers, both on a conceptual and practical level.
+
+The session will conclude with an introduction to programming with python.</p></div><div class="concept-nav"><h1>summary</h1><ul><a class="web-only" href="#housekeeping">housekeeping</a><li class="print-only">housekeeping</li></ul><ul><a class="web-only" href="#the commons">the commons</a><li class="print-only">the commons</li></ul><ul><a class="web-only" href="#the copyrights">the copyrights</a><li class="print-only">the copyrights</li></ul><ul><a class="web-only" href="#the platforms">the platforms</a><li class="print-only">the platforms</li></ul><ul><a class="web-only" href="#the API">the API</a><li class="print-only">the API</li></ul><ul><a class="web-only" href="#programming I">programming I</a><li class="print-only">programming I</li></ul><ul><a class="web-only" href="#programming II">programming II</a><li class="print-only">programming II</li></ul><br></div><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="housekeeping">housekeeping</h3><div class="context"></div><div class="page-group"><h3 class="page-name">digital culture - platforms</h3><div class="prep note" concept="0">welcome!</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">plan for today</h3><div class="prep note" concept="0">- the miracle of the commons</div><div class="prep note" concept="0">- the challenges of copyright</div><div class="prep note" concept="0">- the role of the platforms</div><div class="prep note" concept="0">- the life below the API</div><div class="prep note" concept="0">- introduction to programming</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="the commons">the commons</h3><div class="context"></div><div class="page-group"><h3 class="page-name">linux</h3><div class="prep note" concept="1">what makes linux so special?</div><div class="prep note" concept="1"><img src="digital-culture-2019_assets/linus.png" alt="linus.png"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">Linux is the most widely-used operating system in the world, with both an incredibly democratic aspect (the cheapest Android phones on the planet run on Linux) and specific (every single one of the top 10 supercomputers in the world run Linux). It's also the only operating system running on the International Station, and the only operating system which went to Mars.
+
+The intersection of all these domains is due to very special conjunction: Linux is both amongst the best operating systems, and the cheapest.</div></div><div class="page-group"><h3 class="page-name">shared ownership</h3><div class="prep note" concept="1">what is a commons?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">open source</h3><div class="prep note" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1">wikipedia, etc.
+
+stack overflow</div></div><div class="page-group"><h3 class="page-name">free software</h3><div class="prep note" concept="1">free as in &quot;gratis&quot; vs. free as in &quot;freedom&quot;</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">creating value</h3><div class="prep note" concept="1">the networked society</div><div class="prep note" concept="1">how is it managed?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="the copyrights">the copyrights</h3><div class="context"></div><div class="page-group"><h3 class="page-name">rival and non-rival production</h3><div class="prep note" concept="2">if i take some, you lose some</div><div class="prep note" concept="2">if i take some, you don't lose anything</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">the purpose of copyright</h3><div class="prep note" concept="2">why was copyright established in the first place?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">digital copies</h3><div class="prep note" concept="2">digital copies of cultural artefacts is the epitomy of non-rival production.</div><div class="prep note" concept="2">anyone can get all of the work without anyone else losing anything from it</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">regimes of copyright</h3><div class="prep note" concept="2">on the one side, the MPAA and RIAA are preserving profit</div><div class="prep note" concept="2">on the other side, copyrighted use generates a different kind of value</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">regulating copyright</h3><div class="prep note" concept="2">switching the focus from the users to the providers</div><div class="prep note" concept="2">ISPs</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="the platforms">the platforms</h3><div class="context">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1601487 an article by tartleton gillespie, media prof. at cornell, on the politics of platforms</div><div class="page-group"><h3 class="page-name">providing infrastructure</h3><div class="prep note" concept="3">what is a platform?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">roles and responsibilities</h3><div class="prep note" concept="3">what impact have platforms had on modern society?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">commercial takeover</h3><div class="prep note" concept="3">the value creation is co-opted by platforms. how?</div><div class="prep note" concept="3">-&gt; through advertisement</div><div class="prep note" concept="3">-&gt; through venture funds waiting for advertisement revenue</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">hybrid models</h3><div class="prep note" concept="3">how much would you pay for facebook?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="the API">the API</h3><div class="context">https://rein.pk/replacing-middle-management-with-apis the original post that mentioned &quot;jobs below the api&quot;
+
+https://www.mitpressjournals.org/doi/10.1162/1526381043320741 an article about how the relationship between computing and gendered work was the first in these installments of &quot;jobs below the api&quot;</div><div class="page-group"><h3 class="page-name">the magic</h3><div class="prep note" concept="4">an API is an Application Programming Interface</div><div class="prep note" concept="4">it's a very broad term to denote any way that a digital system can talk to another digital system.</div><div class="prep note" concept="4">how can a human be &quot;below&quot; an API?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4">The bizarre point is that this is when code directly controls humans. We start to have a direct conflict of interest between the strive for software to be optimized and the need for humans to be respected. We've moved from Charlie Chaplin's cogs to Lidl's voice commands.</div></div><div class="page-group"><h3 class="page-name">delegating ownership</h3><div class="prep note" concept="4">platforms to denegate responsibility by shifting them to users (both clients and producers)</div><div class="prep note" concept="4">and to shift some of these under the guise of convenience (uber management)</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div><div class="page-group"><h3 class="page-name">the magical reproduction</h3><div class="prep note" concept="4">of existing patterns</div><div class="prep note" concept="4"><img src="digital-culture-2019_assets/mother_computer.jpg" alt="mother_computer.jpg"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div><div class="page-group"><h3 class="page-name">uberization of the economy</h3><div class="prep note" concept="4">access over ownership</div><div class="prep note" concept="4">pros and cons?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div><div class="page-group"><h3 class="page-name">some responses</h3><div class="prep note" concept="4">the power of legislation</div><div class="prep note" concept="4">the right to repair</div><div class="prep note" concept="4">the self-defeating financial aspirations</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="programming I">programming I</h3><div class="context"></div><div class="page-group"><h3 class="page-name">the fundamentals</h3><div class="prep note" concept="5">what is programming?</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">variables</h3><div class="prep note" concept="5">things that hold values</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">functions</h3><div class="prep note" concept="5">things that do other things</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">the recipe analogy</h3><div class="prep note" concept="5">we need ingredients and instructions</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">python</h3><div class="prep note" concept="5">a programming language is a set of instructions</div><div class="prep note" concept="5">python is a nice and powerful one</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">running a python program (the hard way)</h3><div class="prep note" concept="5">a terminal is a text-only representation of your computer</div><div class="prep note" concept="5">in your terminal, you can type commands (the equivalent of clicking on buttons on your desktop)</div><div class="prep note" concept="5">if your program is in a file called `script.py`, then to execute it, we must type `python script.py` in our terminal</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">the easy way</h3><div class="prep note" concept="5">using the jupyter online editor</div><div class="prep note" concept="5"><a href="https://code.enframed.net">code.enframed.net</a></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="programming II">programming II</h3><div class="context"></div><div class="page-group"><h3 class="page-name">writing a simple program</h3><div class="prep note" concept="6">a program which greets someone by their name</div><div class="prep note" concept="6">using `print`</div><div class="prep note" concept="6">using a variable</div><div class="prep note" concept="6">using a function</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="6"></div></div><div class="page-group"><h3 class="page-name">writing an intermediate program</h3><div class="prep note" concept="6">which greets someone differently based on their name</div><div class="prep note" concept="6">using `if`</div><div class="prep note" concept="6">`if` is a conditional: it dictates the behavior of the program based on circumstances</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="6"></div></div><div class="page-group"><h3 class="page-name">writing an advanced program</h3><div class="prep note" concept="6">using `for`</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="6"></div></div><div class="page-group"><h3 class="page-name">data science</h3><div class="prep note" concept="6">(is the only science)</div><div class="prep note" concept="6">find the occurences of X inside a dataset</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="6"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div></body></html>
