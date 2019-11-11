@@ -2,7 +2,8 @@
 
 In order to be able to write scripts that have a programmatic interaction with Twitter, you must create specific tokens which will authenticate your script to Twitter.
 
-0. If you don't have a Twitter account, you will need to create one.
+**If you don't have a Twitter account, you can either create one, or ask me for a spare one (I don't have enough for the class, so please use your own account if you have one).**
+
 1. Once you've sent Pierre your twitter username, you will receive an email offering you to activate your Twitter Developer Account. Click on the link.
 2. On your [Twitter Developer Dashboard](https://developer.twitter.com), click on `digital culture 2019` and click `Apps`.
 3. Click `Create an app`.
