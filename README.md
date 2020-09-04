@@ -1,19 +1,40 @@
-# digital-culture-2019
-Course resources for Digital Culture at Sciences Po Menton 2019
+# Digital Culture
+Course resources for Digital Culture at Sciences Po Menton 2020
 
-## instructor
-[pierre depaz](mailto:pierre.depaz@sciencespo.fr)
+## Instructor
 
-## class notes
-[periode.github.io/digital-culture-2019](https://periode.github.io/digital-culture-2019/)
+pierre depaz
+- [email](mailto:pierre.depaz@sciencespo.fr)
+- [www](https://pierredepaz.net)
 
-## class syllabus
+## Notes
+
+[periode.github.io/digital-culture](https://periode.github.io/digital-culture/)
+
+## Syllabus
+
 [pdf](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf)
 
-## fonio
-you will use fonio to publish your website. to get started, look at the [documentation](https://fonio.medialab.sciences-po.fr/test/read/161ec9c9-f3bd-4926-8cdb-761897e0e4d9)
+## Tools
 
-[link to the class' fonio instance](https://fonio.medialab.sciences-po.fr/cirses)
+- [glitch.com](https://glitch.com)
+- [fonio](https://fonio.medialab.sciences-po.fr/cirses)
+- cheapbotsdonequickly
+[link to the class' fonio instance]
 
-## class description
-The Internet as most of us know it is a complex entanglements of ideals, agendas, fundings, technologies and organizations. The first part of this session will address the multiple influences which shaped the Internet into the global telecommunications platform that we use today, and will serve as the foundation for the rest of the course topics. The second part of the session will introduce students to the practicalities of working with web technologies, such as HTML documents and the client-server architecture.
+## Class Description
+
+### What
+
+This course is an introduction to the theory and practice of digital media, of how they affect the formation of human groups, and how are themselves affected by human groups.
+
+### Why
+
+Changes in means of communication imply changes in the nature of communication itself, and therefore in the nature of the societies which communicate through these means. The near-ubiquitous presence of computer-mediated communications thus affects the way that humans organize, relate and imagine. As computers are changing us, this class provides the tools to approach and understand the nature of these changes.
+
+### How
+
+To do so, this course will proceed along three axes: decoding, coding and exploring.
+*Decoding* will be a cross-disciplinary approach to the digital, spanning history, sociology, anthropology, media studies, science/technology studies and software studies.
+*Coding* will involve students the practicalities of working with, and creating, digital objects (websites, videos, podcasts, visualizations).
+*Exploring* will stand on the two previous and take the form of a digital exploration: a sociological investigation on the social, economic and/or political impact of digital technologies on human behaviors and practices. This investigation will be designed, developed and presented on a digital platform harnessing the specific affordances of digital media.
