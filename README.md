@@ -1,26 +1,11 @@
 # Digital Culture
 Course resources for Digital Culture at Sciences Po Menton 2020
 
+[Syllabus](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf) - [Class notes](https://periode.github.io/digital-culture/)
+
 ## Instructor
 
-pierre depaz
-- [email](mailto:pierre.depaz@sciencespo.fr)
-- [www](https://pierredepaz.net)
-
-## Notes
-
-[periode.github.io/digital-culture](https://periode.github.io/digital-culture/)
-
-## Syllabus
-
-[pdf](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf)
-
-## Tools
-
-- [glitch.com](https://glitch.com)
-- [fonio](https://fonio.medialab.sciences-po.fr/cirses)
-- cheapbotsdonequickly
-[link to the class' fonio instance]
+pierre depaz - [email](mailto:pierre.depaz@sciencespo.fr) - [www](https://pierredepaz.net)
 
 ## Class Description
 
@@ -38,3 +23,36 @@ To do so, this course will proceed along three axes: decoding, coding and explor
 *Decoding* will be a cross-disciplinary approach to the digital, spanning history, sociology, anthropology, media studies, science/technology studies and software studies.
 *Coding* will involve students the practicalities of working with, and creating, digital objects (websites, videos, podcasts, visualizations).
 *Exploring* will stand on the two previous and take the form of a digital exploration: a sociological investigation on the social, economic and/or political impact of digital technologies on human behaviors and practices. This investigation will be designed, developed and presented on a digital platform harnessing the specific affordances of digital media.
+
+## Readings
+
+### Week 2
+
+- [A Declaration of Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
+- [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
+
+### Week 3
+
+- [Cautionary Notes of Disinformation and the Origin of Distrust](https://mediawell.ssrc.org/expert-reflections/cautionary-notes-on-disinformation-benkler/)
+- [Engineering the Public: Big data, Surveillance and computational politics](https://firstmonday.org/ojs/index.php/fm/article/view/4901/4097)
+
+### Week 4
+
+- [The Ladies Vanish](https://thenewinquiry.com/the-ladies-vanish/)
+- [The Truth About How Uber’s App Manages Drivers](https://hbr.org/2016/04/the-truth-about-how-ubers-app-manages-drivers)
+
+### Week 5
+
+- [Code/Space: Software and the Everyday Life](https://github.com/periode/politics-of-code/blob/master/assets/readings/02-space/CodeSpace.pdf)
+
+### Week 6
+
+- [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+- [AI's Language Problem](https://www.technologyreview.com/s/602094/ais-language-problem/)
+
+## Tools
+
+- [glitch.com](https://glitch.com)
+- [fonio](https://fonio.medialab.sciences-po.fr/cirses)
+- [cheapbotsdonequick](https://cheapbotsdonequick.com/)
+
