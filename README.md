@@ -26,6 +26,8 @@ To do so, this course will proceed along three axes: decoding, coding and explor
 
 ## Readings
 
+Your reading responses should be published on Glitch. See [this guide](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com) to set up your Glitch account.
+
 ### Week 2
 
 - [A Declaration of Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
