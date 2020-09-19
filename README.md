@@ -30,6 +30,8 @@ Your reading responses should be published on Glitch. See [this guide](https://g
 
 ### Week 2
 
+**[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com)**
+
 - [A Declaration of Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
 - [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
 
