@@ -1,19 +1,19 @@
-import twitter
+from twitter import *
 
 # this part allows you to authenticate your bot to twitter
 # to obtain your credentials, go to developer.twitter.com,
 # create a new app and generate keys and tokens
-my_bot = twitter.Api(
-    consumer_key='YOUR CONSUMER KEY HERE',
-    consumer_secret='YOUR SECRET CONSUMER KEY HERE',
-    access_token_key='YOUR TOKEN HERE',
-    access_token_secret='YOUR SECRET TOKEN HERE'
-  )
+my_bot = Twitter(auth=OAuth(
+    '1977499933-cu6wXh7X48AV7rRrF4LhlruI3El9p4nQUSZbKLv',
+    'VkhC0axbwEInxSbesq0qduj1oS9ZAO4tzuLqZohmn7SiL',
+    'IeuGaViCctVJ6rIKxbYfSiXzm',
+    '7pIbwODvhQ58YYycHvUEi6MfNNMffju3mQHRDjGqFR6yrrvc2g'
+))
 
 # this line just prints the name of the account
 # associated with the keys you've
-name = my_bot.VerifyCredentials().name
-print("Hello, " + name)
+# name = my_bot.VerifyCredentials().name
+# print("Hello, " + name)
 
 # this where you would specify your search term
 # more information on searching here: https://python-twitter.readthedocs.io/en/latest/searching.html
