@@ -1,4 +1,4 @@
-# Resources
+# Reading List
 
 ## Fake News
 
@@ -32,8 +32,9 @@
 - Steven Vallas and Juliet B. Schor, [What Do Platforms Do? Understanding the Gig Economy](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054857)
 - Richard Stallman, [Why Open-Source Misses the Point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 
-
 ## Other
 
+- [Politics of Code](https://github.com/periode/politics-of-code/wiki/Schedule), a more extensive reading list from which this class is derived
+- [Sciences Po Médialab](https://medialab.sciencespo.fr), the digital culture lab at sciences po
 - [Multiplicity.tech](https://www.multiplicity.tech/index.html), an online magazine on diverse point of views in tech.
 - [Logic Magazine](https://logicmag.io/), SF-based, anti-SF-culture tech magazine.

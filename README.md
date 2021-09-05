@@ -52,9 +52,14 @@ Your reading responses should be published on Glitch. See [this guide](https://g
 - [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 - [AI's Language Problem](https://www.technologyreview.com/s/602094/ais-language-problem/)
 
-## Tools
+## Resources and Tools
 
+- [video series on html, css and javascript](https://www.youtube.com/watch?v=STPUv_f1IIw&list=PLyQtZRmg0ogeK2CitMK4fiQa8228_rxiV&index=2)
+- [mozilla developer network tutorial on learning the basics of web development](https://developer.mozilla.org/en-US/docs/Learn)
+- [starting the web design process with a wireframe](https://blog.hubspot.com/website/website-wireframe)
+- [intro to html](https://www.w3schools.com/html/default.asp)
+- [interactive tutorial at khan academy](https://www.khanacademy.org/computing/computer-programming/html-css)
+- [css positioning 101](https://alistapart.com/article/css-positioning-101/)
 - [glitch.com](https://glitch.com)
 - [fonio](https://fonio.medialab.sciences-po.fr/cirses)
 - [cheapbotsdonequick](https://cheapbotsdonequick.com/)
-
