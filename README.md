@@ -1,5 +1,5 @@
 # Digital Culture
-Course resources for Digital Culture at Sciences Po Menton 2020
+Course resources for Digital Culture at Sciences Po Menton 2021
 
 [Syllabus](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf) - [Class notes](https://periode.github.io/digital-culture/)
 
@@ -33,11 +33,9 @@ Your reading responses should be published on Glitch. See [this guide](https://g
 **[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com)**
 
 - [A Declaration of Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
-- [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
 
 ### Week 3
 
-- [Cautionary Notes of Disinformation and the Origin of Distrust](https://mediawell.ssrc.org/expert-reflections/cautionary-notes-on-disinformation-benkler/)
 - [Engineering the Public: Big data, Surveillance and computational politics](https://firstmonday.org/ojs/index.php/fm/article/view/4901/4097)
 
 ### Week 4
