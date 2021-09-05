@@ -34,7 +34,7 @@
 
 ## Other
 
-- [Politics of Code](https://github.com/periode/politics-of-code/wiki/Schedule), a more extensive reading list from which this class is derived
+- [Politics of Code Reading List](https://github.com/periode/politics-of-code/wiki/Schedule), a more extensive reading list from which this class is derived
 - [Sciences Po Médialab](https://medialab.sciencespo.fr), the digital culture lab at sciences po
 - [Multiplicity.tech](https://www.multiplicity.tech/index.html), an online magazine on diverse point of views in tech.
-- [Logic Magazine](https://logicmag.io/), SF-based, anti-SF-culture tech magazine.
+- [Logic Magazine](https://logicmag.io/), SF-based, anti-SF-tech-bro-culture tech magazine.
