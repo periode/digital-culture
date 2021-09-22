@@ -38,3 +38,4 @@
 - [Sciences Po Médialab](https://medialab.sciencespo.fr), the digital culture lab at sciences po
 - [Multiplicity.tech](https://www.multiplicity.tech/index.html), an online magazine on diverse point of views in tech.
 - [Logic Magazine](https://logicmag.io/), SF-based, anti-SF-tech-bro-culture tech magazine.
+- [Bibliographie partagée](https://docs.google.com/document/d/1FDg6M2KyzPKpLWli94ukUCsQ_T5uLKxN0QvBCbKWewI/edit#), for all Digital Culture courses.
