@@ -63,3 +63,4 @@ Your reading responses should be published on Glitch. See [this guide](https://g
 - [glitch.com](https://glitch.com)
 - [fonio](https://fonio.medialab.sciences-po.fr/cirses)
 - [cheapbotsdonequick](https://cheapbotsdonequick.com/)
+- [Free HTML Tutorials](https://www.scaler.com/topics/html/s)
