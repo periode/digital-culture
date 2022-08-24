@@ -28,6 +28,10 @@ To do so, this course will proceed along three axes: decoding, coding and explor
 
 Your reading responses should be published on Glitch. See [this guide](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com) to set up your Glitch account.
 
+### Week 1
+
+Introductions
+
 ### Week 2
 
 **[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com)**
@@ -40,17 +44,27 @@ Your reading responses should be published on Glitch. See [this guide](https://g
 
 ### Week 4
 
+**Individual Commentary Due**
+
 - [The Ladies Vanish](https://thenewinquiry.com/the-ladies-vanish/)
 - [The Truth About How Uber’s App Manages Drivers](https://hbr.org/2016/04/the-truth-about-how-ubers-app-manages-drivers)
 
 ### Week 5
 
+**Methodology meetings**
+
+### Week 6 
+
 - [Code/Space: Software and the Everyday Life](https://github.com/periode/politics-of-code/blob/master/assets/readings/02-space/CodeSpace.pdf)
 
-### Week 6
+### Week 7
 
 - [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 - [AI's Language Problem](https://www.technologyreview.com/s/602094/ais-language-problem/)
+
+### Week 8
+
+**Final presentations**
 
 ## Resources and Tools
 
