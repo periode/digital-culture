@@ -69,11 +69,9 @@ Introductions
 ## Resources and Tools
 
 - [video series on html, css and javascript](https://www.youtube.com/watch?v=STPUv_f1IIw&list=PLyQtZRmg0ogeK2CitMK4fiQa8228_rxiV&index=2)
-- [mozilla developer network tutorial on learning the basics of web development](https://developer.mozilla.org/en-US/docs/Learn)
+- [tutorial on learning the basics of web development](https://developer.mozilla.org/en-US/docs/Learn)
 - [starting the web design process with a wireframe](https://blog.hubspot.com/website/website-wireframe)
 - [intro to html](https://www.w3schools.com/html/default.asp)
 - [interactive tutorial at khan academy](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [css positioning 101](https://alistapart.com/article/css-positioning-101/)
-- [glitch.com](https://glitch.com)
-- [fonio](https://fonio.medialab.sciences-po.fr/cirses)
-- [cheapbotsdonequick](https://cheapbotsdonequick.com/)
+- [getting started with glitch](https://help.glitch.com/kb/article/143-getting-started-part-1-the-project-editor/)
