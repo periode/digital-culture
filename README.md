@@ -28,43 +28,39 @@ To do so, this course will proceed along three axes: decoding, coding and explor
 
 Your reading responses should be published on Glitch. See [this guide](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com) to set up your Glitch account.
 
-### Week 1
+If you find yourself interested in one of the course's topic, you can find [further readings here](./reading_list.md).
+
+### Day 1
 
 Introductions
 
-### Week 2
+### Day 2
 
-**[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com)**
+__[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com)__
 
 - [A Declaration of Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
 
-### Week 3
+### Day 3
+
+__Individual Commentary Due__
 
 - [Engineering the Public: Big data, Surveillance and computational politics](https://firstmonday.org/ojs/index.php/fm/article/view/4901/4097)
 
-### Week 4
+### Day 4
 
-**Individual Commentary Due**
-
-- [The Ladies Vanish](https://thenewinquiry.com/the-ladies-vanish/)
 - [The Truth About How Uber’s App Manages Drivers](https://hbr.org/2016/04/the-truth-about-how-ubers-app-manages-drivers)
 
-### Week 5
-
-**Methodology meetings**
-
-### Week 6 
+### Day 5
 
 - [Code/Space: Software and the Everyday Life](https://github.com/periode/politics-of-code/blob/master/assets/readings/02-space/CodeSpace.pdf)
 
-### Week 7
+### Day 6
 
 - [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
-- [AI's Language Problem](https://www.technologyreview.com/s/602094/ais-language-problem/)
 
-### Week 8
+### Day 7
 
-**Final presentations**
+__Final presentations__
 
 ## Resources and Tools
 
