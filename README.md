@@ -1,5 +1,5 @@
 # Digital Culture
-Course resources for Digital Culture at Sciences Po Menton 2023
+Course resources for Digital Culture at Sciences Po Menton 2024
 
 [Syllabus](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf) - [Class notes](https://periode.github.io/digital-culture/)
 
