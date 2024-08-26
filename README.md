@@ -70,5 +70,5 @@ __Final presentations__
 - [intro to html](https://www.w3schools.com/html/default.asp)
 - [interactive tutorial at khan academy](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [css positioning 101](https://alistapart.com/article/css-positioning-101/)
-- [getting started with glitch](https://help.glitch.com/kb/article/143-getting-started-part-1-the-project-editor/)
+- [getting started with glitch](https://help.glitch.com/hc/en-us/articles/16287564744461-Getting-Started-Part-1-The-Project-Editor)
 - [a complete guide to flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
