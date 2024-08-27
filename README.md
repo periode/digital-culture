@@ -42,8 +42,6 @@ __[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setti
 
 ### Day 3
 
-__Individual Commentary Due__
-
 - [Engineering the Public: Big data, Surveillance and computational politics](https://firstmonday.org/ojs/index.php/fm/article/view/4901/4097)
 
 ### Day 4
@@ -55,6 +53,8 @@ __Individual Commentary Due__
 - [Code/Space: Software and the Everyday Life](https://github.com/periode/politics-of-code/blob/master/assets/readings/02-space/CodeSpace.pdf)
 
 ### Day 6
+
+Individual commentary due at 11.59pm
 
 - [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 
