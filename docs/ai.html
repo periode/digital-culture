@@ -1,280 +1,22 @@
-<!DOCTYPE html><html><head><meta charset="utf8"><title>digital-culture-2019 | ai</title><style>body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Inter UI', Trebuchet MS;
-	background-color: white;
-}
-
-header {
-	background-color: black;
-	color: white;
-  	padding: 10px;
-	overflow: auto;
-}
-
-header h1{
-	display: inline-block;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 40%;
-	font-size: 2.5em;
-}
-
-@media print{
-	header h1{
-		font-size: 1em;
-	}
-}
-
-.subject-name{
-	float: right;
-	text-align: right;
-}
-
-.topic-name{
-	float: left;
-	text-align: left;
-}
-
-a {
-	text-decoration: none;
-  color: #e77607;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:visited {
-  color: #b25900;
-}
-
-header a{
-	color: white;
-	text-decoration: none;
-	border: 2px solid white;
-	padding: 3px;
-}
-
-main{
-	position: absolute;
-	margin-left: 20%;
-	width: 60%;
-	display: block;
-}
-
-@media (min-width: 640px) {
-	main{
-		margin: auto;
-		width: 100%;
-	}
-}
-
-@media print{
-	main{
-		margin-left: 5%;
-		width: 90%;
-	}
-}
-
-hr {
-	border: none;
-	height: 2px;
-	background-color: black;
-	float: left;
-	width: 100%;
-}
-
-img {
-	max-height: 300px;
-	max-width: 90%;
-}
-
-.concept-group{
-	width: 80%;
-	margin-left: 10%;
-	display: block;
-	float: left;
-}
-
-.concept-nav{
-	width: 30%;
-	float: right;
-	margin-right: 10%;
-}
-
-.overview-holder{
-	float: left;
-	width: 38%;
-	margin-left: 10%;
-}
-
-@media print{
-	.concept-group, .concept-nav{
-		width: 90%;
-		margin-left: 5%;
-	}
-}
-
-.concept-name {
-	width: 98%;
-	text-align: right;
-	float: right;
-	color: black;
-	border-bottom: 2px solid black;
-	padding: 1%;
-	font-size: 2em;
-}
-
-.break-before, .break-after{
-	display: block;
-	width: 100%;
-	height: 5px;
-	float: left;
-}
-
-.break-after{
-	page-break-after: always;
-}
-
-.page-group{
-	position: relative;
-	font-size: 1.2em;
-	width: 50%;
-	float: left;
-}
-
-@media print{
-
-	.page-group{
-		width: 70%;
-		page-break-inside: avoid;
-	}
-
-	.prep{
-		font-size: 0.8em;
-	}
-}
-
-.page-name{
-	width: 100%;
-	float: left;
-}
-
-.note-group{
-	position: relative;
-	width: 50%;
-	float: left;
-	overflow: auto;
-	text-align: left;
-}
-
-@media print{
-	.note-group{
-		width: 30%;
-	}
-}
-
-.note {
-	position: relative;
-	margin-bottom: 10px;
-	width: 100%;
-	overflow: auto;
-	white-space: pre;
-}
-
-@media print {
-	.note{
-		white-space: normal;
-	}
-}
-
-.writeup-group{
-	width: 100%;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	float: left;
-}
-
-@media print{
-	.writeup-group{
-		break-inside: avoid;
-		font-size: 0.9em;
-	}
-}
-
-.context{
-	white-space: pre-line;
-	border: 2px solid black;
-	width: 45%;
-	padding: 5px;
-	float: right;
-}
-
-@media print{
-	.context{
-		width: 100%
-	}
-}
-
-.writeup{
-	width: 100%;
-	float: left;
-	margin-bottom: 10px;
-	font-style: italic;
-	white-space: pre-line;
-}
-
-.web-only{
-	display: inherit;
-}
-
-.print-only{
-	display: none;
-}
-
-@media print{
-	* {
-		float: none !important;
-	}
-
-	.break-before{
-		page-break-before: always !important;
-	}
-
-	.break-after{
-		page-break-after: always !important;
-	}
-
-	.web-only{
-		display: none;
-	}
-
-	.print-only{
-		display: inline-block;
-	}
-}
-</style></head><body><header><h1 class="topic-name">ai</h1><h1 class="subject-name"><a href="index.html">digital-culture-2019</a></h1></header><main><div class="overview-holder"><h1>overview</h1><p>This session focuses on the history and perspectives of developing AI techniques, from 1950&#39;s Turing Test until today&#39;s large language models.</p>
+<!DOCTYPE html><html><head><meta charset="utf8"><title>digital-culture-2019 | ai</title><link rel="stylesheet" href="styles/main.css"></head><body><header><h1 class="topic-name">ai</h1><h1 class="subject-name"><a href="index.html">digital-culture-2019</a></h1></header><main><div class="overview-holder"><h1>overview</h1><p>This session focuses on the history and perspectives of developing AI techniques, from 1950&#39;s Turing Test until today&#39;s large language models.</p>
 </div><div class="concept-nav"><h1>summary</h1><ul><a class="web-only" href="#intro">intro</a><li class="print-only">intro</li></ul><ul><a class="web-only" href="#symbolic intelligence">symbolic intelligence</a><li class="print-only">symbolic intelligence</li></ul><ul><a class="web-only" href="#connected intelligence">connected intelligence</a><li class="print-only">connected intelligence</li></ul><ul><a class="web-only" href="#today">today</a><li class="print-only">today</li></ul><ul><a class="web-only" href="#conclusion">conclusion</a><li class="print-only">conclusion</li></ul><ul><a class="web-only" href="#project check-in">project check-in</a><li class="print-only">project check-in</li></ul><br></div><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="intro">intro</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">artificial intelligence</h3><div class="prep" concept="0"><p>welcome!</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">plan for the day</h3><div class="prep" concept="0"><ul>
-<li>the hypes of AI</li>
-<li>(risky) predictions for the future</li>
-<li>work session on final projects</li>
+<li>the history and hypes of AI</li>
+<li>AI through rules</li>
+<li>AI through examples</li>
+<li>HTML layout and JavaScript</li>
 </ul>
 </div><div class="prep" concept="0"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="symbolic intelligence">symbolic intelligence</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">question</h3><div class="prep" concept="1"><p>do you think we should use an AI software in the court room?</p>
 <ul>
-<li>AI can do clerk work </li>
-<li>Gathering and analyzing data</li>
-<li>Might make wrong connections</li>
-<li>hungry problem</li>
+<li>horrible idea (not good at judgment, only repetitive)</li>
+<li>helpful bureaucracy, lowers barrier of entry</li>
+<li>only in very simple cases</li>
+<li>humans are not always better than AI</li>
+<li>do you consider justice maths or something beyond?</li>
+<li>garbage in/garbage out</li>
+<li>no accountability</li>
 </ul>
 </div><div class="prep" concept="1"><p>what is AI?</p>
-<ul>
-<li>computers/robots</li>
-<li>learning machines / sophisticated programs</li>
-<li>they make poems and paintings</li>
-<li>anthropomorphized software</li>
-</ul>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><div>The question of AIs in courtrooms suggests different trains of thoughts:
 
 - AI offers an approach to standardization to guarantee equal treatment
@@ -290,7 +32,7 @@ img {
 <p><em>(b) The education to which it has been subjected,</em></p>
 <p><em>(c) Other experience, not to be described as education, to which it has been subjected.</em></p>
 </div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>Turing starts by asking the question of whether we could ever tell apart a robot from a human, if we could only talk to them via a computer interface (i.e. texting). This is the first standard of intelligence that is put forward.</p>
-</div></div><div class="page-group"><h3 class="page-name">hype #1 - symbolical</h3><div class="prep" concept="1"><img src="digital-culture-2019_assets/Screenshot from 2023-11-09 13-30-52.png" alt="Screenshot from 2023-11-09 13-30-52.png"></div><div class="prep" concept="1"><p>1956 in dartmouth</p>
+</div></div><div class="page-group"><h3 class="page-name">hype #1 - symbolical</h3><div class="prep" concept="1"><img src="digital-culture-2019_assets/Screenshot from 2023-11-09 13-30-52.png" alt="Screenshot from 2023-11-09 13-30-52.png"></div><div class="prep" concept="1"><p>1956 in dartmouth, joseph mccarthy</p>
 <p>highly mathematical approach</p>
 </div><div class="prep" concept="1"><p>culminates in <em>SHRDLU</em>, a language interface for spatial recognition (1968-1970)</p>
 </div><div class="prep" concept="1"><img src="digital-culture-2019_assets/shdrlu.jpg" alt="shdrlu.jpg"></div><div class="prep" concept="1"><img src="digital-culture-2019_assets/shrdlu_org.png" alt="shrdlu_org.png"></div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>The first approach to AI starts in 1956, with the coining of the term &quot;Artificial Intelligence&quot; by a bunch of mathematicians at Dartmouth. They assume that one can represent the mind through abstract concepts and connections.</p>
@@ -304,12 +46,12 @@ img {
 </code></pre>
 </div><div class="prep" concept="1"><p>would you use a chatbot as a therapist?</p>
 <ul>
-<li>complimentary help</li>
-<li>not as qualified (does not get nuance)</li>
-<li>more access but what about limits?</li>
-<li>difference with talking to a human (body language) / empathy and presence</li>
-<li>data privacy</li>
-<li>removes social stigma / no judgment</li>
+<li>not too customized (pattern matching)</li>
+<li>data privacy issue, corporation links</li>
+<li>therapists provide empathy, enable projection</li>
+<li>supplement, and not replace</li>
+<li>less responsibility</li>
+<li>mixed feelings, has some knowledge, but goes loop</li>
 </ul>
 </div><div class="prep" concept="1"><p>the difference between <strong>choice</strong> and <strong>judgment</strong></p>
 <blockquote>
@@ -324,7 +66,7 @@ img {
 </div></div><div class="page-group"><h3 class="page-name">winter #1</h3><div class="prep" concept="1"><p>turns out, computers don&#39;t work so well in the real world</p>
 <p>1965s - 1975s</p>
 </div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>These debates take place exclusively in academia, where there is quite a lot of computing power to do these intelligence experiments. However, the private sector does not benefit from it, and the hype dies out.</p>
-</div></div><div class="page-group"><h3 class="page-name">hype #2 - experts</h3><div class="prep" concept="1"><p>increase in data and usable languages enable commercial applications</p>
+</div></div><div class="page-group"><h3 class="page-name">hype #2 - expert systems</h3><div class="prep" concept="1"><p>increase in data and usable languages enable commercial applications</p>
 <ul>
 <li>SABRE (automated travel agent) - 1976</li>
 <li>MAVENT (mortgage and lending compliance automation) - 1980</li>
@@ -334,12 +76,14 @@ img {
 </div></div><div class="page-group"><h3 class="page-name">criticism #2 - chinese room</h3><div class="prep" concept="1"><p>a system based on rules is not necessarily conscious</p>
 </div><div class="prep" concept="1"><img src="digital-culture-2019_assets/chineseroom.jpg" alt="chineseroom.jpg"></div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>The second criticism aims at the fallacy of representing knowledge as rules. John Searle proposes an experiment to illsutrate it: <a href="https://en.wikipedia.org/wiki/Chinese_room">the chinese room paradox</a></p>
 </div></div><div class="page-group"><h3 class="page-name">winter #2</h3><div class="prep" concept="1"><p>logic as knowledge representation peaks without hardware</p>
+<p>logic representation becomes a <em>cathedral of rules</em>, and crumbles</p>
 </div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">hype #3 - big computers</h3><div class="prep" concept="1"><p>MITI, IBM build very fast computers, still operating on logic</p>
-</div><div class="prep" concept="1"><img src="digital-culture-2019_assets/Deep-Blue-y-Gari-Kasparov.webp" alt="Deep-Blue-y-Gari-Kasparov.webp"></div><div class="prep" concept="1"><p>kasparov vs. IBM Deep Blue, 1997</p>
+</div><div class="prep" concept="1"><img src="digital-culture-2019_assets/Deep-Blue-y-Gari-Kasparov.webp" alt="Deep-Blue-y-Gari-Kasparov.webp"></div><div class="prep" concept="1"><p>kasparov vs. IBM Deep Blue, 1996-1997</p>
 </div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>The summit of the logical/big hardware approach is when IBM builds a computer which manages to beat Kasparov, chess grandmaster. However, one might think it&#39;s only a fairly restricted conception of intelligence.</p>
 </div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="connected intelligence">connected intelligence</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">meanwhile</h3><div class="prep" concept="2"><img src="digital-culture-2019_assets/rosenblatt.webp" alt="rosenblatt.webp"></div><div class="prep" concept="2"><p>frank rosenblatt pretending not to be confused by his perceptron, 1950s</p>
 </div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>There is another alternative to the development of AI: rather than logical of few, complex concepts, one can also take a huge amount of somewhat simple concepts.</p>
 </div></div><div class="page-group"><h3 class="page-name">sensing and thinking</h3><div class="prep" concept="2"><img src="digital-culture-2019_assets/c0189e47-14c9-4dae-b99f-06668235bb6a.png" alt="c0189e47-14c9-4dae-b99f-06668235bb6a.png"></div><div class="prep" concept="2"><p>what the frog&#39;s eye tells the frog&#39;s brain, 1959</p>
+<p>warren mccullough, walter pitts</p>
 </div><div class="prep" concept="2"><p>so what about neurons? can you represent thought just through single perceptive units?</p>
 </div><div class="prep" concept="2"><p>but we still need fast computers and a lot of input</p>
 </div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>Additionally, fundamental research in neuroscience shows that not all intelligence happens in the brain (the illusion of &quot;i think therefore i am&quot; philosophical tradition). Particularly, some visual processing of objects happens directly in the eye rather than in the brain.</p>
@@ -347,14 +91,14 @@ img {
 <p>neural networks start to perform super well (end of 2000s)</p>
 </div><div class="prep" concept="2"><p>instead of <strong>inductive</strong> reasoning (i.e. knowing the rules beforehand)</p>
 <p>you go for <strong>deductive</strong> reasoning (i.e. you figure out the rules as you go)</p>
-</div><div class="prep" concept="2"><p>machine learning, deep learning, convolutional neural networks, etc.</p>
+</div><div class="prep" concept="2"><p>machine learning, deep learning, convolutional neural networks, stable diffusion, etc.</p>
 <p>essentially <strong>deciding on a series of weights</strong> given a certain data set, and then checking with a verification dataset.</p>
 </div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><div>The only thing that was missing was big data: now that there is a large amount of regular data, we can pay attention to a different kind of intelligence.
 
 For instance: how come it's super easy for humans to recognize images, and very hard for computers? So the process of [deep learning](https://en.wikipedia.org/wiki/Deep_learning) works very well with large amounts of data to do trial and error deductions.
 
 Because, ultimately, it is this trial and error approach which is a fundamental shift: intelligence systems are no longer inductive, they are deductive.</div></div></div><div class="page-group"><h3 class="page-name">deep learning and gans</h3><div class="prep" concept="2"><p>deep learning can train itself</p>
-</div><div class="prep" concept="2"><img src="digital-culture-2019_assets/lee_sedol.jpg" alt="lee_sedol.jpg"></div><div class="prep" concept="2"><p>lee sedol loses to alpha go</p>
+</div><div class="prep" concept="2"><img src="digital-culture-2019_assets/lee_sedol.jpg" alt="lee_sedol.jpg"></div><div class="prep" concept="2"><p>lee sedol loses to alpha go, 2016</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>The technique is so successful that it manages to beat the best human player at Go (at the time, the IBM computer that was the best at chess could barely beat a professional Go player). Still, the standard for intelligence is still that of a well-defined ruleset.</p>
 <p>Learn more about how deep learning works <a href="https://www.youtube.com/watch?v=aircAruvnKk">here</a></p>
 </div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="today">today</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">large language models</h3><div class="prep" concept="3"><p>the real name of chatGPT</p>
@@ -362,6 +106,7 @@ Because, ultimately, it is this trial and error approach which is a fundamental 
 <p><em>&quot;As long as you can turn it into a vector, you&#39;re OK&quot;</em></p>
 </blockquote>
 <p>Yann LeCun, Chief AI Scientist at Meta</p>
+<p>word2vec</p>
 </div><div class="prep" concept="3"><p>a vector is a series of numbers, that can represent a position in space (space can go beyond 3 dimensions)</p>
 </div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"><p>By combining this approach with a representation of text as a set of vectors (i.e. putting words in space), we can start to extract higher-level features (i.e. meaning) from a raw corpus of <a href="https://commoncrawl.org/">common crawl</a></p>
 </div></div><div class="page-group"><h3 class="page-name">reflecting the dataset</h3><div class="prep" concept="3"><p><a target='_blank' href="https://arxiv.org/abs/1607.06520">Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings</a></p>
@@ -378,24 +123,28 @@ Because, ultimately, it is this trial and error approach which is a fundamental 
 <li>task comprehension</li>
 <li>language generation</li>
 </ul>
-</div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">the transformer architecture</h3><div class="prep" concept="3"><p><em>Attention is all you need</em>, Google, 2017 </p>
+</div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">the transformer architecture</h3><div class="prep" concept="3"><p><em><a target='_blank' href="https://arxiv.org/abs/1706.03762">Attention is all you need</a></em>, Google, 2017 </p>
 <p>not just where words are compared to all the different other words, but where they are in a sentence</p>
 </div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"><p>In 2017, Google releases a paper which combines this word-to-vector representation with a linear development: basically, they have an algorithm which can guess the next word in a sentence, and turns out it&#39;s very effective!</p>
-</div></div><div class="page-group"><h3 class="page-name">the role of presentation</h3><div class="prep" concept="3"><p>autocomplete is minor AI -&gt; over a long period of time, small increments, embedded in the everyday</p>
-<p>chatGPT is major AI -&gt; radical break, huge jump in abilities, stand-alone application</p>
+</div></div><div class="page-group"><h3 class="page-name">the role of presentation</h3><div class="prep" concept="3"><p>autocomplete is <em>old</em> AI -&gt; over a long period of time, small increments, embedded in the everyday</p>
+<p>chatGPT is <em>new</em> AI -&gt; radical break, huge jump in abilities, stand-alone application</p>
 </div><div class="prep" concept="3"><p>how do you use chatGPT?</p>
-</div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">LLMs and jobs</h3><div class="prep" concept="3"><p>to what extent do you think is AI going to take your jobs?</p>
 <ul>
-<li>job can be more efficient (can be a good thing depending on the culture)</li>
-<li>bring a new approach to a topic</li>
-<li>different skills (e.g. speaking)</li>
+<li>finding bibliography</li>
+<li>develop basic arguments</li>
+<li>rephrasing readings</li>
+<li>initiating writing prompts</li>
+<li>writeup in style / copyediting</li>
+<li>feel good about myself</li>
 </ul>
+</div><div class="prep" concept="3"><p>gpt is the proof that reading makes you intelligent</p>
+<p>and we use it to stop reading</p>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">LLMs and jobs</h3><div class="prep" concept="3"><p>to what extent do you think is AI going to take jobs?</p>
 </div><div class="prep" concept="3"><p>when you behave like a machine, you are liable to being replaced by a machine</p>
 <p>-&gt; qualified workers in factories replaced by physical machines</p>
 <p>-&gt; qualified workers in offices replaced by cognitive machines</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div><div class="page-group"><h3 class="page-name">AI Act</h3><div class="prep" concept="3"><ul>
 <li>limits AI use to different applications, based on risk level (EU)</li>
-<li>limits AI production with different methodologies and labels (US)</li>
 </ul>
 </div><div class="prep" concept="3"><p>companies need a massive amount of process in order to produce a &quot;correct&quot; AI</p>
 <ul>
@@ -410,15 +159,16 @@ Because, ultimately, it is this trial and error approach which is a fundamental 
 <li>the increase has been 300,000x from 2013-2023</li>
 <li>LLM query is 4-5x higher than a search query</li>
 </ul>
-</div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="conclusion">conclusion</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">hype #5</h3><div class="prep" concept="4"><p>things would change but not too much</p>
-<p>if you make highly patterned cognitive work, you&#39;re in trouble</p>
-<p>human-machine cooperation tends to yield better results than machine alone</p>
-<p>mitigations are happening at both the process and application level, but should not detract from important issues</p>
-</div><div class="prep" concept="4"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="project check-in">project check-in</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">group work</h3><div class="prep" concept="5"><ul>
-<li>data collection?</li>
-<li>data analysis?</li>
-<li>outcome presentation?</li>
+</div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="conclusion">conclusion</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">a new hype cycle?</h3><div class="prep" concept="4"><ol>
+<li>things would change but not too much</li>
+<li>tech companies decide what ethics are</li>
+<li>if you make highly patterned cognitive work, you&#39;re in trouble</li>
+<li>human-machine cooperation tends to yield better results than machine alone</li>
+<li>mitigations are happening at both the process and application level, but should not detract from important issues</li>
+</ol>
+</div><div class="prep" concept="4"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="project check-in">project check-in</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">commentary</h3><div class="prep" concept="5"><p><strong>due date</strong>: tonight at 11:59pm, on the URL that is listed on the spreadsheet.</p>
+<ul>
+<li>a page on your website (e.g. <code>commentary.html</code>)</li>
+<li>using multiple <code>&lt;p&gt;</code> tags, and <code>&lt;a href=&quot;&quot;&gt;</code></li>
 </ul>
-</div><div class="prep" concept="5"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">submission</h3><div class="prep" concept="5"><p>-&gt; send me one URL per group (you can check that I have it on the grading sheet), <strong>due before class</strong></p>
-<p>-&gt; 10min presentation of your project: lit review, methodology, analysis, conclusion</p>
 </div><div class="prep" concept="5"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div></main></body></html>
