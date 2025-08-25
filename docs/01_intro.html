@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>publi | 01_intro.md</title>
+    <style>
+      :root {
+      /* https://stephango.com/flexoki */
+      --bg: rgb(255, 252, 240);
+      --bg-2: rgb(242, 240, 229);
+      --ui: rgb(230, 228, 217);
+      --ui-2: rgb(218, 216, 206);
+      --ui-3: rgb(206, 205, 195);
+      --tx: rgb(16, 15, 15);
+      --tx-2: rgb(111, 110, 105);
+      --tx-3: rgb(183, 181, 172);
+
+      --red: rgb(209, 77, 65);
+      --red-dark: rgb(175, 48, 41);
+      --orange: rgb(218, 112, 44);
+      --orange-dark: rgb(188, 82, 21);
+      --yellow: rgb(208, 162, 21);
+      --yellow-dark: rgb(173, 131, 1);
+      --green: rgb(135, 154, 57);
+      --green-dark: rgb(102, 128, 11);
+      --cyan: rgb(58, 169, 159);
+      --cyan-dark: rgb(36, 131, 123);
+      --blue: rgb(67, 133, 190);
+      --blue-dark: rgb(32, 94, 166);
+
+      --sans-serif: "Open Sans";
+      --serif: "Crimson Pro";
+
+      --margin: 5px;
+      }
+
+      /* SANS-SERIF FONT */
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Regular.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Regular.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-VariableFont_wdthwght.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 400;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Italic.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 400;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Italic-VariableFont_wdthwght.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Light.woff") format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 300;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-LightItalic.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-SemiBold.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 600;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-SemiBoldItalic.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Bold.woff") format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 700;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-BoldItalic.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 800;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-ExtraBold.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 800;
+      src: local("Open Sans"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-ExtraBoldItalic.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans Light";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Open Sans Light"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-Light-webfont.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Open Sans Condensed";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Open Sans Condensed"),
+      url("https://fonts.cdnfonts.com/s/14884/OpenSans-CondBold.woff")
+      format("woff");
+      }
+
+      /* SERIF FONT */
+      @font-face {
+      font-family: "Crimson Pro";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Crimson Pro"),
+      url("https://fonts.cdnfonts.com/s/29946/CrimsonPro[wght].woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Crimson Pro";
+      font-style: italic;
+      font-weight: 400;
+      src: local("Crimson Pro"),
+      url("https://fonts.cdnfonts.com/s/29946/CrimsonPro-Italic[wght].woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Crimson Pro";
+      font-style: normal;
+      font-weight: 200;
+      src: local("Crimson Pro"),
+      url("https://fonts.cdnfonts.com/s/29946/CrimsonPro-ExtraLight.woff")
+      format("woff");
+      }
+      @font-face {
+      font-family: "Crimson Pro";
+      font-style: italic;
+      font-weight: 200;
+      src: local("Crimson Pro"),
+      url("https://fonts.cdnfonts.com/s/29946/CrimsonPro-ExtraLightItalic.woff")
+      format("woff");
+      }
+
+      /* GENERAL ELEMENTS */
+
+      html {
+      font-size: 18pt;
+      }
+
+      @media screen and (max-width: 1000px) {
+      main {
+      font-size: 24pt;
+      }
+      }
+
+      body {
+      margin: 0;
+      color: var(--tx);
+      background-color: var(--bg);
+      }
+
+      main {
+      width: 60vw;
+      margin: auto;
+      padding-bottom: 30vh;
+      }
+
+      @media screen and (max-width: 1000px) {
+      main {
+      width: 75vw;
+      font-size: 24pt;
+      margin-left: 5vw;
+      margin-right: 0;
+      }
+      }
+
+      img {
+      max-height: 60vh;
+      max-width: 100%;
+      }
+
+      hr {
+      border: none;
+      }
+
+      a {
+      color: var(--tx);
+      }
+
+      pre {
+      white-space: break-spaces;
+      overflow-x: hidden;
+      }
+
+      footer {
+      position: fixed;
+      bottom: 0;
+      }
+
+      h1,
+      h2,
+      h3 {
+      font-family: var(--serif), serif;
+      font-style: normal;
+      font-weight: normal;
+      }
+
+      .footnote-link {
+      vertical-align: super;
+      font-size: 0.8em;
+      cursor: pointer;
+      }
+
+      emph {
+      font-style: italic;
+      }
+
+      /* CONTENT */
+
+      p,
+      figcaption,
+      div.notes,
+      ol,
+      ul {
+      font-family: var(--sans-serif), serif;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      }
+
+      div.notes p,
+      div.notes ul {
+      font-style: italic;
+      font-size: 0.9em;
+      }
+
+      figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+
+      figcaption {
+      font-size: 0.8em;
+      }
+
+      pre {
+      background-color: #eee;
+      padding: 5px;
+      border: 1px solid #aaa;
+      }
+
+      quote p {
+      font-family: var(--sans-serif), serif;
+      display: block;
+      font-style: italic;
+      border-left: 2px solid black;
+      padding: 1em;
+      margin-left: 1em;
+      background-color: rgb(255, 250, 200);
+      }
+
+      li {
+      font-family: var(--sans-serif), serif;
+      margin-bottom: 5px;
+      }
+    </style>
+    <style>
+      /* SNAP SCROLL */
+
+      /* main {
+      scroll-snap-type: y mandatory;
+      height:100vh;
+      overflow-y: scroll;
+
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      }
+
+      main::-webkit-scrollbar {
+      display: none;
+      }
+
+      main h1, main h2, main h3 {
+      scroll-snap-align: center;
+      } */
+
+      main {
+      display: flex;
+      gap: 20px;
+      }
+
+      hr {
+      height: 90vh;
+      }
+
+      h1,
+      h2,
+      h3 {
+      margin-top: 30vh;
+      padding-top: 10vh;
+      }
+
+      main h1,
+      main h2,
+      main h3 {
+      border-bottom: 2px solid var(--tx);
+      padding-bottom: 10px;
+      }
+
+      h1 {
+      font-size: 4em;
+      }
+
+      h2 {
+      font-size: 3em;
+      }
+
+      h3 {
+      font-size: 2em;
+      }
+
+      p {
+      font-size: 1.1em;
+      }
+
+      pre {
+      overflow-x: auto;
+      }
+
+      figure {
+      margin: 0;
+      align-items: start;
+      }
+
+      /* CONTENT */
+
+      .content {
+      width: 100%;
+      }
+
+      .notes {
+      font-size: 0.9em;
+      }
+
+      .invisible {
+      display: none;
+      }
+
+      #board {
+      position: fixed;
+      top: 5vw;
+      right: 5vw;
+      left: 5vw;
+      bottom: 5vw;
+      padding: 20px;
+      opacity: 0.9;
+      border: 1px solid var(--tx);
+      }
+
+      #board textarea {
+      width: 100%;
+      height: 100%;
+      font-size: 2em;
+      opacity: 0.9;
+      background-color: var(--bg);
+      font-family: var(--serif);
+      resize: none;
+      border: none;
+      outline: none;
+      }
+
+      /* TABLE OF CONTENTS */
+
+      .toc {
+      position: fixed;
+      top: 0;
+      bottom: var(--margin);
+      right: var(--margin);
+      max-width: 15vw;
+      margin: 5px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      place-content: end;
+
+      font-size: 20pt;
+      }
+
+      @media screen and (max-width: 1000px) {
+      .toc {
+      max-width: 20vw;
+      font-size: 28pt;
+      }
+      }
+
+      .toc h1,
+      .toc h2,
+      .toc h3 {
+      font-family: var(--sans-serif), sans-serif;
+      margin: 0;
+      padding: 0;
+      }
+
+      .toc h1 {
+      font-family: var(--serif);
+      position: fixed;
+      top: var(--margin);
+      right: var(--margin);
+      max-width: 15vw;
+      margin: 5px;
+      padding: 0;
+      }
+
+      @media screen and (max-width: 1000px) {
+      .toc h1 {
+      max-width: 20vw;
+      }
+      }
+
+      .toc h2,
+      .toc h3 {
+      cursor: pointer;
+      }
+
+      .toc h2:hover,
+      .toc h3:hover {
+      text-decoration: underline;
+      }
+
+      .toc h1 {
+      font-size: 1em;
+      }
+
+      .toc h2 {
+      font-size: 0.8em;
+      margin-top: 3px;
+      margin-bottom: 0px;
+      }
+
+      .toc h3 {
+      font-size: 0.6em;
+      }
+
+      .current-heading {
+      font-weight: bold;
+      }
+
+      /* FOOTNOTES */
+
+      .footnotes {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-bottom: var(--margin);
+      }
+
+      .footnotes ol {
+      width: 60vw;
+      margin: auto;
+      padding-left: 0;
+
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      list-style: none;
+
+      font-size: 0.8em;
+      }
+
+      @media screen and (max-width: 1000px) {
+      .footnotes ol {
+      width: 70vw;
+      font-size: 0.9em;
+      text-align: center;
+      }
+      }
+
+      .footnotes li::before {
+      content: attr(data-footnote-id);
+      margin-right: 2px;
+      vertical-align: super;
+      font-size: 0.7em;
+      }
+
+      /* INTERFACE */
+
+      button {
+      background-color: var(--bg);
+      cursor: pointer;
+      }
+
+      .button-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin: 5px;
+      }
+
+      .button-holder button {
+      font-size: 0.6em;
+      }
+
+      .button-holder button:hover {
+      background-color: var(--bg-2);
+      }
+
+      @media screen and (max-width: 1000px) {
+      .button-holder button {
+      font-size: 1.2em;
+      }
+      }
+
+      /* COMPLETION ANIMATION */
+
+      @keyframes scaleProgress {
+      0% {
+      transform: scaleY(0);
+      }
+      100% {
+      transform: scaleY(1);
+      }
+      }
+
+      .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      transform-origin: top;
+      animation: scaleProgress auto linear;
+      animation-timeline: scroll(root);
+      background-color: black;
+      width: 3px;
+      height: 100vh;
+      }
+    </style>
+    <script></script>
+    <script>
+      'use strict';
+
+      const init = () => {
+      initHeadingsObserver()
+      initFootnotesObserver();
+
+      document.body.addEventListener('keydown', (evt) => {
+      if(evt.key === 'Escape')
+      document.getElementById("board").classList.add("invisible")
+      })
+      }
+
+      const initFootnotesObserver = () => {
+      const options = {
+      root: null,
+      rootMargin: "-10%",
+      threshold: 1.0,
+      };
+
+      const refs = document.querySelectorAll(".footnote-link")
+      const toggleFootnoteVisibility = (entries) => {
+      entries.forEach((entry) => {
+      const id = entry.target.dataset.id
+      const fn = document.getElementById(`footnote-${id}`)
+      if (!fn) {
+      console.warn(`could not find footnote #${id}`)
+      return
+      }
+      if (entry.intersectionRatio === 1) {
+      fn.classList.remove("invisible")
+      } else {
+      fn.classList.add("invisible")
+      }
+      })
+      }
+
+      const observer = new IntersectionObserver(toggleFootnoteVisibility, options);
+      refs.forEach(r => observer.observe(r))
+      }
+
+      const initHeadingsObserver = () => {
+      document.querySelectorAll(".toc h3").forEach(e => e.classList.add("invisible"))
+      document.querySelectorAll(".toc h4").forEach(e => e.classList.add("invisible"))
+      document.querySelectorAll(".toc h5").forEach(e => e.classList.add("invisible"))
+
+      const options = {
+      root: null,
+      rootMargin: "-10%",
+      threshold: 1.0,
+      };
+
+      const h2 = document.querySelectorAll("main h2")
+      const h3 = document.querySelectorAll("main h3")
+      const headings = [...h2, ...h3]
+
+      let current;
+      const toggleToCHighlight = (entries) => {
+      entries.forEach((entry) => {
+      var el = document.querySelector(`.toc #toc-${entry.target.id}`)
+      if (entry.intersectionRatio > 0.9) {
+      if (current === el) return
+
+      // set current style
+      if (current) current.classList.remove("current-heading")
+      el.classList.add("current-heading")
+      current = el
+
+      // toggle sub-heading visibility
+      if (el.tagName == "H2") {
+      document.querySelectorAll(".toc h3").forEach(e => e.classList.add("invisible"))
+      let sibling = el.nextElementSibling
+
+      while (sibling != null && sibling.tagName == "H3") {
+      sibling.classList.remove("invisible")
+      sibling = sibling.nextElementSibling
+      }
+      }
+      }
+      });
+      };
+
+      const observer = new IntersectionObserver(toggleToCHighlight, options);
+      headings.forEach(h => observer.observe(h))
+      }
+
+      const setFullscreen = () => {
+      document.documentElement.requestFullscreen()
+      }
+
+      const toggleNotes = () => {
+      let els = document.querySelectorAll(".notes")
+      if (els) els.forEach(e => e.classList.toggle("invisible"))
+      else console.warn("could not find notes")
+      }
+
+      const toggleBoard = () => {
+      let el = document.getElementById("board")
+      el.classList.toggle("invisible")
+      }
+
+      const goToHeading = (anchor) => {
+      const el = document.getElementById(anchor)
+      if (el) el.scrollIntoView({ behavior: "smooth" })
+      else console.warn("could not find heading with anchor", anchor)
+      }
+    </script>
+  </head>
+  <body onload="init()">
+    <div class="progress"></div>
+    <header></header>
+    <div class="toc">
+      <h1 id="toc-digital-culture" onclick="goToHeading('digital-culture')">Digital Culture</h1>
+      <h2 id="toc-plan-for-the-day" onclick="goToHeading('plan-for-the-day')">Plan for the day</h2>
+      <h2 id="toc-introductions" onclick="goToHeading('introductions')">Introductions</h2>
+      <h3 id="toc-pierre" onclick="goToHeading('pierre')">Pierre</h3>
+      <h3 id="toc-you" onclick="goToHeading('you')">You</h3>
+      <h3 id="toc-this-class" onclick="goToHeading('this-class')">This class</h3>
+      <h2 id="toc-digital-inquiry" onclick="goToHeading('digital-inquiry')">Digital inquiry</h2>
+      <h2 id="toc-inspirations-and-examples" onclick="goToHeading('inspirations-and-examples')">Inspirations and examples</h2>
+      <h3 id="toc-past-semesters" onclick="goToHeading('past-semesters')">Past semesters</h3>
+      <h2 id="toc-under-the-hood" onclick="goToHeading('under-the-hood')">Under the hood</h2>
+      <h2 id="toc-outro" onclick="goToHeading('outro')">Outro</h2>
+    </div>
+    <main>
+      <div class="content">
+        <h1 id="digital-culture">Digital Culture</h1>
+        <p>Welcome!</p>
+        <hr/>
+        <h2 id="plan-for-the-day">Plan for the day</h2>
+        <ul>
+          <li>introductions (me, you, this class)</li>
+          <li>digital inquiries (topics, examples)</li>
+          <li>anatomy of a webpage</li>
+        </ul>
+        <hr/>
+        <h2 id="introductions">Introductions</h2>
+        <hr/>
+        <h3 id="pierre">Pierre</h3>
+        <p>
+          <a href="mailto:pierre.depaz@sciencespo.fr" target="_blank">pierre.depaz@sciencespo.fr</a>
+        </p>
+        <p>Researcher at the University of Basel</p>
+        <p>Software studies</p>
+        <p>Freelance software developer</p>
+        <div class="notes invisible">
+          <p>I did Media and Communication at Sciences Po Lille, then Game Design at NYU, and then comparative literature at Paris-3.</p>
+          <p>Software studies is a subfield of media studies, it's the media studies of the digital, between literature and science and technology studies.</p>
+          <p>
+            More info at 
+            <a href="https://pierredepaz.net" target="_blank">pierredepaz.net</a>
+          </p>
+        </div>
+        <hr/>
+        <h3 id="you">You</h3>
+        <ul>
+          <li>name</li>
+          <li>where you are from</li>
+          <li>something you like/dislike about computers?</li>
+        </ul>
+        <div class="notes invisible">
+          <p>
+            The ambivalence about computers is an ambivalence inherent to all technologies, something that has been theorized by Plato, Derrida and Stiegler as a <strong>pharmakon</strong>, something that is both a drug and a cure. See some definitions at 
+            <a href="https://pharmakon.art/about/" target="_blank">pharmakon.art</a>
+            and 
+            <a href="https://encyclopedia.pub/entry/33181" target="_blank">encyclopedia.pub</a>
+            .
+          </p>
+        </div>
+        <hr/>
+        <p>Computers, like any form of technology are a <strong>pharmakôn</strong><a data-id="1" class="footnote-link">1</a>.</p>
+        <hr/>
+        <h3 id="this-class">This class</h3>
+        <p>What does one mean by digital culture?</p>
+        <hr/>
+        <p>digital culture is <em>the networks of beliefs and practices that create, or are created by, digital technologies</em></p>
+        <div class="notes invisible">
+          <p>the digital, in this course, is not going to refer exclusively to the discipline of computer science, or to software engineering. the digital is the interweaving of technical apparatuses, such as code, with the complexity of social, economical, and cultural influences. the digital becomes part of culture culture when it enters into a dialogue with the diversity of human choices, preferences and behaviors.</p>
+          <p>as the science-fiction writer frederick pohl put it quite elegantly, "<em>science-fiction is not about inventing cars, it's about inventing traffic jams</em>" . the digital is not just about numbers, then, but about how we use numbers, instant communication, and automation in our society today, and how all those affect human behaviour.</p>
+          <p>alan m. turing wrote a seminal paper in the early 1950s, in which he proved that "all that could be calculated could be calculated with a particular machine". that machine he goes on to describe is known as a Turing machine, and computers are particular versions of turing machines. the main question is then to define "what are the limits of that which we can represent with numbers, and then compute it?".</p>
+          <p>it turns out, quite a lot. we can represent images, sounds, weather, physical objects, single individuals and groups of people as numbers. each of these can then become the subject of computation.</p>
+        </div>
+        <hr/>
+        <p>Three axes:</p>
+        <ul>
+          <li>decoding</li>
+          <li>coding</li>
+          <li>investigating</li>
+        </ul>
+        <div class="notes invisible">
+          <p>
+            <strong>decoding</strong> is going to be about understanding what goes on behind the scenes. what is "the cloud"? what is "artificial intelligence"? what is "user experience"? what is "a platform"? these are all different metaphors that we have started to use in order to refer to layers, or stacks, of technologies that end up being presented and communicated to the broader audience in a simplified manner. in this class, we will base our approach on lawrence lessig's 
+            <a href="https://lessig.org/product/codev2" target="_blank">code, and other laws of cyberspace</a>
+            which sees digital products as the result of the influence of code, law, social norms and the market
+            it is about understanding what are all the different dynamics, actors and agendas at play during the creation of technologies, and of services based on these technologies. through this understanding, it becomes easier to see how these technologies affect societies, and how societies can affect these technologies in return (e.g. the NSA has a very keen understanding of internet technologies in order to have a very efficient monitoring program, or the GDPR in the E.U. has been deployed as a response to data breaches that no privacy policy had ever had to take into account before)
+          </p>
+          <p>
+            <strong>coding</strong> is going to be the practical component. while code isn't the only thing that makes up "the digital", it is a strange enough artefact that we think it's necessary for you to get a glimpse of what it entails to write code, how easy or how unfamiliar it can be.
+            beyond this introduction, it is also a way to familiarize yourselves with the specifics of new forms of publishing on the web, in order to understand and use in a relevant way what makes the web such a unique space for creating and distributing knowledge (multimedia, hyperlinks, dynamic content, data processing, etc.)
+          </p>
+          <p>finally, the <strong>investigation</strong> is going to allow you to participate to a group research project regarding a particular topic you're interested in. This means formulating research, conducting it, and presenting it through digital means (audio/video/web/etc.). We'll talk more about the specifics of that inquiry later on, but this is essentially the part of the class were you show that you've understood what it means to create and publish knowledge in the 21st century, specifically around the issues of living in a digital world.</p>
+        </div>
+        <hr/>
+        <ul>
+          <li>what are the origins and manifestations of the digital?</li>
+          <li>how do we relate to (digital) technology?</li>
+          <li>where do social behaviors influence technical systems? where do technical systems influence social behavior?</li>
+        </ul>
+        <div class="notes invisible">
+          <p>digital systems shape us in several ways.</p>
+          <p>the first one is that information-processing technologies are all essentially extensions of man (mcluhan). they influence the things we can do as humans, and particularly what we can remember. they allow us to externalize knowledge, codify it and therefore transmit it better. because in a post-enlightenment civilization externalized knowledge is the grounds upon which we build the truths of the world we live in.</p>
+          <p>the second one is that technology, and particularly the practical manifestation of technology known as tools are already in themselves the embodiment of a know-how (weizenbaum). a hammer is a physical embodiment of the act of hitting something into something else. a keyboard is the physical embodiment of an alphabetical script. a certain type of programming language is going to be the (somewhat) physical embodiment of a certain representation of the world.</p>
+          <p>the last one, which is particular relevant to digital technologies, is the use of psychological techniques in order to trigger dopamine releases in the brains of the consumers (pretty icons, satisfying interactions, endless distribution of addictive content).</p>
+          <p>on the opposite, the way that we shape digital systems is both concrete and elusive.</p>
+          <p>concretely, the market economy dictates design and development decisions based on what makes the consumer consume the most. the government bodies issues rules and regulations allowing or banning certain features (google in china, or uber in berlin, for a little bit) and the military funds fundamental research in areas relevant to them.</p>
+          <p>in a more diffuse way, we shape digital systems through the complex interactions that happen in human societies, and through the myths, practices and manners of doing that we project onto new systems. urban planning regulations can reflect racial biases in a given society (robert moses). the male gaze as a patriarchal social practice was reflected in the design of facebook (kate losse). the political scandals of surveillance lead to new government regulations (again, the GDPR). the need for military reconnaissance leads to the development of computer vision rather than computer speech.</p>
+          <p>there is no clear-cut boundary between these two dynamics, and understanding digital culture means understanding how and when each of them are at play.</p>
+        </div>
+        <hr/>
+        <p>
+          <a href="https://github.com/periode/digital-culture" target="_blank">github.com/periode/digital-culture</a>
+        </p>
+        <p>this is where you will find all information, resources and tutorials about the course</p>
+        <div class="notes invisible">
+          <p>this website will be updated every week with class notes, links and any code that we might have written during class.</p>
+          <p>This is where you will find the syllabus, with the schedule and assignments.</p>
+        </div>
+        <hr/>
+        <h2 id="digital-inquiry">Digital inquiry</h2>
+        <hr/>
+        <p><strong>what?</strong></p>
+        <p>a question on the interaction between digital technology and society (cultural, economical, political)</p>
+        <p>some academic research</p>
+        <p>a final submission in digital form (website, video series, podcast)</p>
+        <div class="notes invisible">
+          <p>your digital inquiry should start with a question about how digital technology affects the ways of being and the ways of acting of social groups or how social groups use and influence the development of digital technology.</p>
+          <p>from that question, you should gather both a bibliography of secondary sources (texts that talk about the issues that you will be working with) as well as primary sources (information that you've gathered on your own, through online forms, interviews, data scraping, etc.).</p>
+          <p>you will then build up a nuanced and well-fleshed-out argument in order to answer the original question (this is the most sciences po part of it).</p>
+          <p>finally, you will synthesize all of the above and present it in a digital format, starting from a website and including possible videos, podcasts, graphs, visualizations, etc.</p>
+        </div>
+        <hr/>
+        <p><strong>why?</strong></p>
+        <p>to build on the topics touched upon during this class</p>
+        <p>to practice academic methods of inquiry</p>
+        <p>to learn the tools of digital publications</p>
+        <div class="notes invisible">
+          <p>this inquiry will allow you to combine both your skills at decoding digital culture and coding digital products in order to produce original and widely-accessible research. on top of the classical methods of inquiry of sociological studies, you are expected to organize and display those results in a digital-first format.</p>
+          <p>as marshall mcluhan, founder of media studies, famously put it, "the medium is the message"; that is, each means of communication both constrains and enables particular messages. through this inquiry, you will understand and practice the multimedia possibilities inherent to the web, and not be restricted by static print formats.</p>
+        </div>
+        <hr/>
+        <p><strong>how?</strong></p>
+        <p>literature review, research questions, hypothesis, etc.</p>
+        <p>online observation and data gathering</p>
+        <p>web design, audio or video production</p>
+        <div class="notes invisible">
+          <p>web design is the skill and art of the form and content of websites, which we will do in HTML and CSS (see next week). each of you will have to do at least a small amount of those languages for the final exploration, through the fonio platform (fonio.medialab.sciencespo.fr).</p>
+          <p>your exploration can also include audio and/or video through platforms such as instagram, youtube, soundcloud, are.na, etc.</p>
+          <p>finally, some programming might be useful for some of your explorations, but the main point of this class is going to be to familiarize you with the basics of programming.</p>
+        </div>
+        <hr/>
+        <p>individual commentary will be done in pair with a LLM.</p>
+        <ul>
+          <li>you choose an article related to your topic</li>
+          <li>you comment it</li>
+          <li>you make the LLM comment it</li>
+          <li>you comment on the LLM's comment</li>
+        </ul>
+        <hr/>
+        <p>examples of suitable topics:</p>
+        <ul>
+          <li><em>do preachers from different religions all preach the same way on TikTok?</em></li>
+          <li><em>how do services like spotify affect the production and consumption of music?</em></li>
+          <li><em>how digital is the farming industry?</em></li>
+          <li><em>what are the power dynamics in an average open-source software project?</em></li>
+          <li><em>what role do online places play in the LGBTQ+ coming-out process?</em></li>
+          <li><em>are crypto bros still believing in the original bitcoin dream?</em></li>
+          <li><em>how does software change the school experience?</em></li>
+          <li><em>what's up with tradwives?</em></li>
+        </ul>
+        <div class="notes invisible">
+          <p>while you might start with broad topics (data processing, privacy, communities), it is very important to narrow them down to specific issues in identifiable social groups and locations.</p>
+          <p>from data processing, one could inquire about the profile of data scientists in french startups. from privacy, one could ask questions about the privacy awareness and practices of university students in the campus of menton. from communities, one could look into the whatsapp groups set up by filipino service workers abroad.</p>
+        </div>
+        <hr/>
+        <p>groups of 3 minimum, 4 maximum (we will make them tomorrow)</p>
+        <ul>
+          <li><strong>monday</strong>: intro</li>
+          <li><strong>tuesday</strong>: forming groups and discussing methodology</li>
+          <li><strong>tuesday</strong>: framing topic</li>
+          <li><strong>wednesday</strong>: group work (refining topic)</li>
+          <li><strong>thursday</strong>: group work (picking a format)</li>
+          <li><strong>05/09</strong>: individual commentary due</li>
+          <li><strong>week of 11/09</strong>: online group consultations</li>
+          <li><strong>19/09</strong>: due date</li>
+        </ul>
+        <hr/>
+        <h2 id="inspirations-and-examples">Inspirations and examples</h2>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/mturkpoems/" target="_blank">instagram - mturk poems</a>
+          </li>
+          <li>
+            <a href="https://datadrivendj.com/tracks/subway/" target="_blank">brian foo - two trains</a>
+          </li>
+          <li>
+            <a href="http://selfiecity.net/" target="_blank">lev manovich - selfie city</a>
+          </li>
+          <li>
+            <a href="https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html" target="_blank">nyt - how uber manages its drivers</a>
+          </li>
+          <li>
+            <a href="https://ncase.me/polygons/" target="_blank">nicky case and vi hart - parable of the polygons</a>
+          </li>
+          <li>
+            <a href="https://www.survivalofthebestfit.com" target="_blank">survival of the best fit</a>
+          </li>
+          <li>
+            <a href="https://aegean.forensic-architecture.org/" target="_blank">driftbacks in the agean sea</a>
+          </li>
+          <li>
+            <a href="https://www.airpressure.info" target="_blank">air pressure</a>
+          </li>
+          <li>
+            <a href="https://arxiv.org/pdf/1609.01996.pdf" target="_blank">(lack of) representation of non western world in process of creation of web standards</a>
+          </li>
+        </ul>
+        <div class="notes invisible">
+          <p>these are examples of how digital (non-)commercial platforms can be used to broadcast research and highlight topics in non-traditional ways.</p>
+          <p>
+            the mturk poems uses the instagram platforms in order to highlight in a somewhat more artistic way the labor that goes on unrecognized behind the scenes of the systems we use. for another example, see 
+            <a href="http://crowdworkersoftheworldunite.com" target="_blank">http://crowdworkersoftheworldunite.com</a>
+          </p>
+        </div>
+        <hr/>
+        <h3 id="past-semesters">Past semesters</h3>
+        <ul>
+          <li>online spaces and lgbtq+: helpful or threatening?</li>
+          <li>influence of viral tiktoks on music use: how can we observe a correlation?</li>
+          <li>apple products consumption patterns: why do people buy apple products? because they're better?</li>
+          <li>the manosphere: a linguistic analysis: how can we observe the spread of the manosphere online through the vocabulary they use?</li>
+          <li>gender behaviour through social media consumption: do "feminist" men/women behave more traditionally on Instagram?</li>
+          <li>contribution of tunisian twitter activists to issue-formation in the tunisian political debate: do what people say online impact what is said offline?</li>
+          <li>the secularism hypothesis and online preachers: are people getting less or more religious online?</li>
+          <li>the horsehoe theory in radical online spaces: do far-leftists and far-rightits meet online?</li>
+          <li>humor and racially marked spaces: what are the specifics of race-based humor online?</li>
+          <li>ai and sexism: how is AI sexist (if at all)?</li>
+        </ul>
+        <div class="notes invisible">
+          <p>Unfortunately, the website from the past semester were hosted on a platform which shut down last July, so we can only think consider their topics</p>
+        </div>
+        <hr/>
+        <h2 id="under-the-hood">Under the hood</h2>
+        <hr/>
+        <p>A webpage is just a bunch of files with a special software to display it—aka a <em>browser</em>.</p>
+        <hr/>
+        <p>To manipulate any webpage, open the <strong>developer tools</strong> in your browser and modify the existing HTML code.</p>
+        <ul>
+          <li><strong>chrome</strong>: menu on the top right > More Tools > Developer Tools.</li>
+          <li><strong>firefox</strong>: menu on the top right > More Tools > Web Developer Tools.</li>
+          <li><strong>safari</strong>: Develop > Show Web Inspector. (If you can't see the Develop menu, Safari > Preferences > Advanced > check the Show Develop menu).</li>
+        </ul>
+        <hr/>
+        <p>html - the content</p>
+        <p>css - the format</p>
+        <p>js - the behaviour</p>
+        <hr/>
+        <p>
+          to create a webpage, we will use 
+          <a href="https://codepen.io" target="_blank">codepen</a>
+          , to compose and publish websites.
+        </p>
+        <p>each of you will have one website, on which you will post reading responses, commentaries, and updates on the inquiry.</p>
+        <hr/>
+        <p><strong>html</strong> is all about tags, surrounding the content you want to display.</p>
+        <p>here is how to make a paragraph:</p>
+        <pre><code lang="html">&lt;p&gt;
+  Your content here
+&lt;/p&gt;</code></pre>
+        <p>and a new link:</p>
+        <pre><code lang="html">click &lt;a href="https://en.wikipedia.org"/&gt;here&lt;/a&gt; to access wikipedia</code></pre>
+        <hr/>
+        <p><strong>css</strong> is all about rules, and defining which rules apply to which tags:</p>
+        <pre><code lang="html">p {
+  background-color: green;
+}</code></pre>
+        <p>this CSS rule makes the background of all paragraphs become green.</p>
+        <hr/>
+        <h2 id="outro">Outro</h2>
+        <hr/>
+        <p>
+          <strong>read</strong> - 
+          <a href="https://www.eff.org/cyberspace-independence" target="_blank">a declaration of independence of cyberspace</a>
+        </p>
+        <p><strong>answer</strong> - the following prompts:</p>
+        <ul>
+          <li>To what extent did Barlow’s vision turn out to be true? To what extent is it still relevant today?</li>
+          <li>How does the Internet bypass (or not) state authority? What about other authorities?</li>
+        </ul>
+        <p>
+          <strong>finish</strong> - setting up 
+          <a href="https://codepen.io" target="_blank">a codepen account</a>
+          to post your reading responses, and send me the URL of your project.
+        </p>
+        <p><strong>think</strong> about which topic you would be interested in. we will form groups tomorrow.</p>
+        <hr/>
+      </div>
+      <div class="footnotes">
+        <h2 class="invisible">Appendix</h2>
+        <ol class="footnotes">
+          <li id="footnote-1" class="footnote invisible">
+            Stiegler, Bernard. 
+            <emph>Technics and Time, 1: The Fault of Epimetheus</emph>
+            , Stanford University Press. 1998.
+          </li>
+        </ol>
+      </div>
+    </main>
+    <div id="board" class="invisible">
+      <textarea></textarea>
+    </div>
+    <footer>
+      <div class="button-holder">
+        <button onclick="toggleBoard()">board</button>
+        <button onclick="toggleNotes()">notes</button>
+        <button onclick="setFullscreen()">screen</button>
+      </div>
+    </footer>
+  </body>
+</html>

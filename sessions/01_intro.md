@@ -33,7 +33,9 @@ Freelance software developer
 
 <!--
 
-I did Media and Communication at Sciences Po Lille, then Game Design at NYU, and then comparative literature at Paris-3
+I did Media and Communication at Sciences Po Lille, then Game Design at NYU, and then comparative literature at Paris-3.
+
+Software studies is a subfield of media studies, it's the media studies of the digital, between literature and science and technology studies.
 
 More info at [pierredepaz.net](https://pierredepaz.net)
 
@@ -45,13 +47,19 @@ More info at [pierredepaz.net](https://pierredepaz.net)
 
 - name
 - where you are from
-- how do you feel about computers?
+- something you like/dislike about computers?
 
 <!--
 
 The ambivalence about computers is an ambivalence inherent to all technologies, something that has been theorized by Plato, Derrida and Stiegler as a __pharmakon__, something that is both a drug and a cure. See some definitions at [pharmakon.art](https://pharmakon.art/about/) and [encyclopedia.pub](https://encyclopedia.pub/entry/33181).
 
 -->
+
+---
+
+Computers, like any form of technology are a __pharmakôn__[^ref-stiegler].
+
+[^ref-stiegler]: Stiegler, Bernard. _Technics and Time, 1: The Fault of Epimetheus_, Stanford University Press. 1998.
 
 ---
 
@@ -131,7 +139,7 @@ this is where you will find all information, resources and tutorials about the c
 
 this website will be updated every week with class notes, links and any code that we might have written during class.
 
-go to the wiki section (at the top) to find the syllabus, weekly assignments and any resources we've mentioned in class.
+This is where you will find the syllabus, with the schedule and assignments.
 
 -->
 
@@ -238,7 +246,7 @@ groups of 3 minimum, 4 maximum (we will make them tomorrow)
 - __tuesday__: framing topic
 - __wednesday__: group work (refining topic)
 - __thursday__: group work (picking a format)
-- __02/09__: individual commentary due
+- __05/09__: individual commentary due
 - __week of 11/09__: online group consultations
 - __19/09__: due date
 
