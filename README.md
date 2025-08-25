@@ -1,4 +1,5 @@
 # Digital Culture
+
 Course resources for Digital Culture at Sciences Po Menton 2024
 
 [Syllabus](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf) - [Class notes](https://periode.github.io/digital-culture/)
@@ -30,37 +31,40 @@ Your reading responses should be published on Glitch. See [this guide](https://g
 
 If you find yourself interested in one of the course's topic, you can find [further readings here](./reading_list.md).
 
-### Day 1
+### Session 1
 
 Introductions
 
-### Day 2
+### Session 2 - Structure
 
-__[Setup a Glitch account](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com)__
+__[Setup a CodePen account](https://codepen.io)__
 
 - [A Declaration of Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
 
-### Day 3
+### Session 3 - Social media
+
+- [Radical Opacity](https://www.technologyreview.com/2010/08/23/200890/radical-opacity/)
+
+### Session 4 - Governance
 
 - [Engineering the Public: Big data, Surveillance and computational politics](https://firstmonday.org/ojs/index.php/fm/article/view/4901/4097)
 
-### Day 4
+### Session 5 - Economy
 
+- [The ladies vanish](https://thenewinquiry.com/the-ladies-vanish/)
 - [The Truth About How Uber’s App Manages Drivers](https://hbr.org/2016/04/the-truth-about-how-ubers-app-manages-drivers)
 
-### Day 5
+### Session 6 - AI
 
-- [Code/Space: Software and the Everyday Life](https://github.com/periode/politics-of-code/blob/master/assets/readings/02-space/CodeSpace.pdf)
+- [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing).
 
-### Day 6
+### Session 7 - AI (again)
 
-Individual commentary due at 11.59pm
+- [The Environmental Toll of a Netflix Binge](https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/)
 
-- [Machine Bias: Risk Assessment in Criminal Sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+### Session 8 - Consultations
 
-### Day 7
-
-__Final presentations__
+Groups will meet online with the instructor (week of 12/09)
 
 ## Resources and Tools
 
