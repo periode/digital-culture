@@ -25,13 +25,15 @@ Welcome!
 
 <pierre.depaz@sciencespo.fr>
 
-Researcher at the University of Basel (political science > game design > media studies)
+Researcher at the University of Basel 
 
-Software studies (media studies of the digital, between literature and science and technology studies)
+Software studies
 
 Freelance software developer
 
 <!--
+
+I did Media and Communication at Sciences Po Lille, then Game Design at NYU, and then comparative literature at Paris-3
 
 More info at [pierredepaz.net](https://pierredepaz.net)
 
@@ -145,7 +147,7 @@ a question on the interaction between digital technology and society (cultural, 
 
 some academic research
 
-a final submission in digital form
+a final submission in digital form (website, video series, podcast)
 
 <!--
 
@@ -199,6 +201,15 @@ finally, some programming might be useful for some of your explorations, but the
 
 ---
 
+individual commentary will be done in pair with a LLM.
+
+- you choose an article related to your topic
+- you comment it
+- you make the LLM comment it
+- you comment on the LLM's comment
+
+---
+
 examples of suitable topics:
 
 - _do preachers from different religions all preach the same way on TikTok?_
@@ -224,10 +235,11 @@ groups of 3 minimum, 4 maximum (we will make them tomorrow)
 
 - __monday__: intro
 - __tuesday__: forming groups and discussing methodology
-- __wednesday__: framing topic
-- __thursday__: framing research questions
-- __friday__: individual commentary due
-- __week of 05/09__: online group consultations
+- __tuesday__: framing topic
+- __wednesday__: group work (refining topic)
+- __thursday__: group work (picking a format)
+- __02/09__: individual commentary due
+- __week of 11/09__: online group consultations
 - __19/09__: due date
 
 ---
@@ -241,11 +253,12 @@ groups of 3 minimum, 4 maximum (we will make them tomorrow)
 - [nicky case and vi hart - parable of the polygons](https://ncase.me/polygons/)
 - [survival of the best fit](https://www.survivalofthebestfit.com)
 - [driftbacks in the agean sea](https://aegean.forensic-architecture.org/)
+- [air pressure](https://www.airpressure.info)
 - [(lack of) representation of non western world in process of creation of web standards](https://arxiv.org/pdf/1609.01996.pdf)
 
 <!--
 
-these are examples of how gigital (non-)commercial platforms can be used to broadcast research and highlight topics in non-traditional ways.
+these are examples of how digital (non-)commercial platforms can be used to broadcast research and highlight topics in non-traditional ways.
 
 the mturk poems uses the instagram platforms in order to highlight in a somewhat more artistic way the labor that goes on unrecognized behind the scenes of the systems we use. for another example, see http://crowdworkersoftheworldunite.com
 
@@ -298,6 +311,12 @@ js - the behaviour
 
 ---
 
+to create a webpage, we will use [codepen](https://codepen.io), to compose and publish websites.
+
+each of you will have one website, on which you will post reading responses, commentaries, and updates on the inquiry.
+
+---
+
 __html__ is all about tags, surrounding the content you want to display.
 
 here is how to make a paragraph:
@@ -325,12 +344,6 @@ p {
 ```
 
 this CSS rule makes the background of all paragraphs become green.
-
----
-
-To create a webpage, we will use [codepen](https://codepen.io), to compose and publicize websites.
-
-each of you will have one website, on which you will post reading responses, commentaries, and updates on the inquiry.
 
 ---
 

@@ -64,7 +64,7 @@ __[Setup a CodePen account](https://codepen.io)__
 
 ### Session 8 - Consultations
 
-Groups will meet online with the instructor (week of 12/09)
+Groups will meet online with the instructor (week of 11/09)
 
 ## Resources and Tools
 
