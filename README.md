@@ -2,7 +2,7 @@
 
 Course resources for Digital Culture at Sciences Po Menton 2024
 
-[Syllabus](https://github.com/periode/digital-culture-2019/blob/master/Syllabus.pdf) - [Class notes](https://periode.github.io/digital-culture/)
+[Syllabus](https://github.com/periode/digital-culture-2019/blob/master/Depaz_Syllabus_Menton_2025.pdf) - Class notes (tba)
 
 ## Instructor
 
@@ -27,7 +27,7 @@ To do so, this course will proceed along three axes: decoding, coding and explor
 
 ## Readings
 
-Your reading responses should be published on Glitch. See [this guide](https://github.com/periode/digital-culture/wiki/Setting-up-Glitch.com) to set up your Glitch account.
+Your reading responses should be published on CodePen. We will set it up together in class.
 
 If you find yourself interested in one of the course's topic, you can find [further readings here](./reading_list.md).
 
