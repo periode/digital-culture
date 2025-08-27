@@ -29,6 +29,10 @@ Then, we will turn to the more classical understanding of political organization
 
 ---
 
+Radical opacity? Yes or no?
+
+---
+
 ## Hackers
 
 ---
@@ -41,13 +45,13 @@ Hacking means experimenting with the capabilities of a system in order to better
 
 ---
 
-![Facebook HQ, 1 Hacker Way](../docs/digital-culture-2019_assets/hackerway.jpeg)
+![Facebook HQ, 1 Hacker Way](../assets/hackerway.jpeg)
 
 <!-- One hack that facebook did was the [facebook emotional manipulation experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/). -->
 
 ---
 
-![Cap'n Crunch is the most famous phreaker](../docs/digital-culture-2019_assets/capn-crunch-1964-bosun-whistle-box3.jpg)
+![Cap'n Crunch is the most famous phreaker](../assets/capn-crunch-1964-bosun-whistle-box3.jpg)
 
 <!-- Hackers are preceded by phreakers, such as [Cap'n Crunch](https://classic.esquire.com/secrets-of-the-blue-box/), who exploited telephone lines to bypass the arbitrary fees of the phone company (up until 1982, the Bell System, which owned AT&T, had monopoly over telephone communications in the US). One of those phreakers was Steve Wozniak, the creator of the first Apple computers, see [phone phreaking and the little blue box](https://www.slate.com/articles/technology/the_spectator/2011/10/the_article_that_inspired_steve_jobs_secrets_of_the_little_blue_.html) -->
 
@@ -158,6 +162,12 @@ Finally, with the advent of commercial, holistic social media, the tendency push
 
 ---
 
+Computers are programmed to automate actions.
+
+In which ways do social media enforce behaviours?
+
+---
+
 Ultimately, social media platforms provide technical norms to align with their idea of good behaviour, what Ian Kerr calls __the digital lock as the automation of virtue__[^ref-kerr].
 
 [^ref-kerr]: Kerr, Ian R., and Michael Geist. “Digital Locks and the Automation of Virtue.” From “Radical Extremism” to “Balanced Copyright”: Canadian Copyright and the Digital Agenda, Irwin Law, 2010, pp. 247–304, https://papers.ssrn.com/abstract=2115655.
@@ -173,7 +183,7 @@ Ultimately, social media platforms provide technical norms to align with their i
 - refine the topic
 - find preliminary research on it
 - consider a specific angle on it
-- formulate open questions
+- formulate interesting (open) questions
 
 ---
 

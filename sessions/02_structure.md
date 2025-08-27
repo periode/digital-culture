@@ -53,7 +53,7 @@ Yet, the Internet is made and used by people, and people are subjects of states.
 
 ---
 
-The clash between east and west codes[^ref-lessig].
+The clash between east and west codes[^ref-lessig] is the clash between technological will and political will.
 
 [^ref-lessig]: Lessig, Lawrence. _Code and Other Laws of Cyberspace_. Basic Books, Inc., 1999. <https://lessig.org/product/code/>
 
@@ -87,7 +87,7 @@ tl;dr: the Web runs on the Internet.
 
 ---
 
-![The Arpanet in 1969](../docs/digital-culture-2019_assets/arpanet.jpg)
+![The Arpanet in 1969](../assets/arpanet.jpg)
 
 <!--
 
@@ -101,13 +101,23 @@ The diagram above is the earliest Internet known, and indicates who (universitie
 
 ---
 
-![The Arpanet in 1973](../docs/digital-culture-2019_assets/arpanet-geographic-map-of-the-internet-september-1973.jpg)
+![The Arpanet in 1973](../assets/arpanet-geographic-map-of-the-internet-september-1973.jpg)
 
 <!-- THe growth of the internet is just more and more computers connected to each other -->
 
 ---
 
-![Tim Berners-Lee is the web developer](../docs/digital-culture-2019_assets/tbl-developer.jpg)
+The Web builds on top of the Internet, and belongs to a larger history of information classification and formatting.
+
+<!-- Such as the first Encyclopedia, or the Dewey decimal system -->
+
+---
+
+![Tim Berners-Lee is the web developer](../assets/tbl-developer.jpg)
+
+The Web is a way of structuring and exchanging information into pages and links, published in 1989 by CERN[^ref-cern].
+
+[^ref-cern]: See the first webpage here: <https://info.cern.ch/?form=MG0AV3>
 
 <!--
 
@@ -123,34 +133,6 @@ he was part of the people who designed HTTP, HTML. HT stands for HyperText, and 
 
 ---
 
-![One map of the Internet](https://imgs.xkcd.com/comics/map_of_the_internet.jpg)
-
-Mapping the Internet is assigning IP addresses.
-
-<!--
-
-The internet is a collection of computers which all have a single IP (Internet Protocol) address. See https://ipv4.dev.sarl/@zoom=2 for an interactive visual.
-
-The internet then delivers content between IP addresses. For instance, WhatsApp is an example of VoIP (Voice over IP).
-
--->
-
----
-
-![Another map of the Internet](../docs/digital-culture-2019_assets/Screenshot%20from%202023-09-21%2012-24-44.png)
-
-[Undersea cables](https://www.submarinecablemap.com/) are the backbone of the Internet, and the object of geo-economical contention[^ref-blum-baraka].
-
-[^ref-blum-baraka]: Blum Andrew, Baraka Carey, _Sea change_, Rest of World, 2022 <https://restofworld.org/2022/google-meta-underwater-cables/>
-
-<!-- The internet is not a cloud, its mostly a collection of subsea cables operated by large companies. This is also changing with Starlink. For a more holistic map of Internet geopolitics, see: https://www.cartografiasdainternet.org/en
-
-But, as a series of cables, it's also [very fragile](https://www.bbc.com/future/article/20240724-the-day-the-internet-turned-off).
-
--->
-
----
-
 The internet (and the web) can also be considered as a bunch of standards:
 
 - tcp/ip -> addresses (machine version)
@@ -160,11 +142,9 @@ The internet (and the web) can also be considered as a bunch of standards:
 
 ---
 
-_how do i know where i'm going, and how to get there?_ __internet protocol!__
+the __internet protocol__ identifies machines.
 
-_how do we make sure that whatever we're sending gets there in one piece?_ __transmission control protocol!__
-
-you identify people online by their IP.
+the __transmission control protocol__ identifies how to travel between machines.
 
 <!-- IP (Internet Protocol) is the set of behaviours which allows to know where a computer is on a network. It is essentially an address system along with a network of roads. In an example of going from A to B, it first defines what it means to be A, and to be B (i.e. it assigns addresses, of the type 127.234.231.9), and then it establishes multiple paths between A and B, by breaking up a given message from A to B and having different parts of that message go through different paths to get to their destination.
 
@@ -174,27 +154,27 @@ Those two protocols were designed by Vint Cerf and Bob Kahn at UCLA in 1967, and
 
 ---
 
-_how the hell am i supposed to remember all these numbers?_ __domain name system__
+the __domain name system__ helps us remember those weird numbers
 
 wikipedia.org -> 208.80.153.224
 
-there are special ["phone books"]((https://www.internetexchangemap.com/#/)) computers which keep track of the IPs.
+there are special "phone books" ([backbones](https://www.internetexchangemap.com/#/)) computers—called backbones—which keep track of the IPs.
 
 <!-- Because IP addresses are just numbers, the DNS protocol convert these numbers in human-memorable means: words, separated by dots. It starts with a TLD (top level domain), such as __com__, then goes down one level, such as __google__, then another level, such as __mail__, for a complete Domain Name of __mail.google.com__ -->
 
 ---
 
-_how do i know the correct way to interpret a message?_ __hypertext__ transfer protocol
+__hypertext__ transfer protocol is one specific way to transfer information
 
-(other protocols on the application layer: simple mail transfer protocol (SMTP), file transfer protocol (FTP), etc., HSTS)
+other protocols on the application layer: simple mail transfer protocol (SMTP), file transfer protocol (FTP), audio streaming (HSTS), voice calls (VoIP).
 
 <!-- HTTP is the protocol in which "clients" and "servers" first appear. It functions as a request, and a response, in order to fetch some information through some automated way from a remote machine. -->
 
 ---
 
-All this to send an HTML file.
+All of this to send an HTML file...
 
-It's a file written __hypertext markup language__, which describes a document, that can be found at a place specified by a __universal resource locator__
+It's a file written __hypertext markup language__, which describes a document.
 
 <!-- This is where we technically leave the realm of the internet and get into "userland", the realm of humans, and what we see on our screens. HTML is what we usually call a webpage, and it is not separable from the development of HTTP, since HTTP was designed to retrieve HTML documents.
 
@@ -212,7 +192,43 @@ a typical day in the life of the web:
 
 ---
 
-![A visual representation of the client/server architecture](../docs/digital-culture-2019_assets/1280px-Client-server-model.svg.png)
+![A visual representation of the client/server architecture](../assets/1280px-Client-server-model.svg.png)
+
+---
+
+But is there a cloud???
+
+<!-- The cloud is mostly computers rented from [Amazon Web Services](https://aws.com) -->
+
+---
+
+![One map of the Internet](https://imgs.xkcd.com/comics/map_of_the_internet.jpg)
+
+Mapping the Internet is assigning IP addresses.
+
+<!--
+
+The internet is a collection of computers which all have a single IP (Internet Protocol) address. See https://ipv4.dev.sarl/@zoom=2 for an interactive visual.
+
+The internet then delivers content between IP addresses. For instance, WhatsApp is an example of VoIP (Voice over IP).
+
+-->
+
+---
+
+![Another map of the Internet](../assets/submarine_cable_map.png)
+
+[Undersea cables](https://www.submarinecablemap.com/) connect backbones are the nerves of the Internet, and the object of geo-economical contention[^ref-blum-baraka].
+
+[^ref-blum-baraka]: Blum Andrew, Baraka Carey, _Sea change_, Rest of World, 2022 <https://restofworld.org/2022/google-meta-underwater-cables/>
+
+<!-- The internet is not a cloud, its mostly a collection of subsea cables operated by large companies. This is also changing with Starlink. For a more holistic map of Internet geopolitics, see: https://www.cartografiasdainternet.org/en
+
+But, as a series of cables, it's also [very fragile](https://www.bbc.com/future/article/20240724-the-day-the-internet-turned-off).
+
+Now, Starlink is changing the game by providing cable-less access, with implications of access monopoly and space pollution: See the map at https://www.starlinkmap.org
+
+-->
 
 ---
 
@@ -245,7 +261,7 @@ commitment to multilateralism:
 
 ---
 
-The main challenges of these organizations are __reliability__[^ref-denardis], __net neutrality__[^ref-schafer-musiani] and __encryption__.
+The main challenges of these organizations are __reliability__[^ref-denardis], __net neutrality__[^ref-schafer-musiani] and __encryption__, with __corporations as the main stakeholders__.
 
 [^ref-denardis]: DeNardis, Laura, _Protocol Politics: The Globalization of Internet Governance_, MIT Press, 2008. <https://mitpress.mit.edu/9780262526753/protocol-politics/>
 
@@ -286,25 +302,29 @@ Quick recap for the group inquiry
 
 ---
 
+We write our webpages on [codepen.io](https://codepen.io)
+
+---
+
 webpages are written in __HTML__.
 
 hyper text markup language
 
 a markup language is a language which describes __what__ the content is, with _tags_.
 
-`<tagname attribute="value">` innerText `</tagname>`
+`&lt;tagname attribute="value"&gt;` innerText `&lt;/tagname&gt;`
 
-`<p class="introduction">` Lorem ipsum dolores sit amet... `</p>`
+`&lt;p class="introduction"&gt;` Lorem ipsum dolores sit amet... `&lt;/p&gt;`
 
 ---
 
-every webpage has minimum three tags: `<html>`, a `<head>` and a `<body>`
+every webpage has minimum three tags: `&lt;html&gt;`, a `&lt;head&gt;` and a `&lt;body&gt;`
 
-`<head>` is what your browser needs to know, and includes all the files needed to display the page correctly (e.g. the CSS files, or the scripts that spy on you)
+`&lt;head&gt;` is what your browser needs to know, and includes all the files needed to display the page correctly (e.g. the CSS files, or the scripts that spy on you)
 
-`<body>` is what you want to see
+`&lt;body&gt;` is what you want to see
 
-most of your work will be inside the `<body>` tag.
+most of your work will be inside the `&lt;body&gt;` tag.
 
 ---
 
@@ -328,10 +348,12 @@ color: green;
 
 ---
 
-Our digital communications provide us with seemingly __global information exchange__ (it goes very fast and treats everyone the same), but still __relies on material infrastructures and political agreements__.
+Our digital communications provide us with seemingly __global information exchange__, based on __the dream of information resilience and knowledge sharing__. By design, it goes very fast and treats everyone the same.
+
+Still, like everything else, the Internet and the Web rely on __material infrastructures and political agreements__.
 
 ---
 
-Next time, we talk about the origins of social media.
+Next time, we talk about the rise of social media.
 
 read [radical opacity](https://www.technologyreview.com/2010/08/23/200890/radical-opacity/), where we learn about the origins of 4chan.

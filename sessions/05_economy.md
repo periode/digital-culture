@@ -36,7 +36,9 @@ an operating system that is the result of the global, non-commercial distributed
 - 96% of all websites
 - 4.5% of all laptops
 
-<!-- Linux is an operating system, meaning that it is a crucial piece of software which orchestrates the relation behind other software and hardware.
+<!--
+
+Linux is an operating system, meaning that it is a crucial piece of software which orchestrates the relation behind other software and hardware.
 
 for instance, if you're listening to spotify, spotify needs to have access to your speakers. if you're getting a facetime call at the same time, the operating system tells spotify to smoothly fade out the music, and hand over access to the speakers to facetime.
 
@@ -46,7 +48,7 @@ other operating systems are microsoft's windows and apple's macOS
 
 ---
 
-![The first message about the development of Linux](../docs/digital-culture-2019_assets/linus.png)
+![The first message about the development of Linux](../assets/linus.png)
 
 Available [for anyone to inspect and download](https://github.com/torvalds/linux).
 
@@ -76,7 +78,7 @@ Some of the advantages to using open-source software is the externalization of c
 
 ---
 
-![An open letter to hobbyists](../docs/digital-culture-2019_assets/letter-hobby.jpg)
+![An open letter to hobbyists](../assets/letter-hobby.jpg)
 
 Bill Gates thought that software should be a commodity[^ref-gates].
 
@@ -98,7 +100,11 @@ When faced with a new technology, should the economic model adapt to this change
 
 ---
 
-One example of the economic model adapting: __Wikipedia__.
+### Wikipedia
+
+---
+
+Wikipedia is a form of online __commons__.
 
 <!-- The story behind Wikipedia is that of the surprise that a lot of people responsible in a distributed manner are much more efficient than a few, centralized ones. See [the story of Wikipedia's predecessor](https://en.wikipedia.org/wiki/Nupedia).
 
@@ -112,40 +118,11 @@ what are reasons to edit wikipedia?
 
 ---
 
-### Wikipedia
-
-Wikipedia is a form of online __commons__.
-
----
-
-![Elinor Ostrom, 2009 nobel laureate in economics](../docs/digital-culture-2019_assets/elinor.jpg)
+![Elinor Ostrom, 2009 nobel laureate in economics](../assets/elinor.jpg)
 
 Elinor Ostrom showed how economic governance can be shared over common resources[^ref-ostrom].
 
 [^ref-ostrom]: Ostrom, Elinor. _Governing the Commons: The Evolution of Institutions for Collective Action_. Cambridge: Cambridge University Press, 2015. Print. Canto Classics.
-
-- Define clear group boundaries.
-- Match rules governing use of common goods to local needs and conditions.
-- Ensure that those affected by the rules can participate in modifying the rules.
-- Make sure the rule-making rights of community members are respected by outside authorities.
-- Develop a system, carried out by community members, for monitoring members’ behavior.
-- Use graduated sanctions for rule violators.
-- Provide accessible, low-cost means for dispute resolution.
-
----
-
-There is a general movement of peer-production in the economic sector[^ref-benkler].
-
-- linux
-- wikipedia
-- seti@home
-- slashdot
-- distributed proofreaders (gutenberg project)
-- openstreetmap / google maps
-- community gardens
-- firefox
-
-[^ref-benkler]: Benkler, Y. (2016). Peer production, the commons, and the future of the firm. Strategic Organization, 15(2), 264-274. https://doi.org/10.1177/1476127016652606
 
 <!-- 
 
@@ -159,11 +136,35 @@ Commons-based peer-production of value is a term coined by Yochai Benkler. It is
 
 ---
 
-what are some limits to this model? would it always work?
+- Define clear group boundaries.
+- Match rules governing use of common goods to local needs and conditions.
+- Ensure that those affected by the rules can participate in modifying the rules.
+- Make sure the rule-making rights of community members are respected by outside authorities.
+- Develop a system, carried out by community members, for monitoring members’ behavior.
+- Use graduated sanctions for rule violators.
+- Provide accessible, low-cost means for dispute resolution.
 
-commons-based peer-production sidesteps:
+<!-- The rules for governing commons -->
 
-- the need for monetary compensation
+---
+
+There is a general movement of peer-production in the economic sector[^ref-benkler].
+
+- linux
+- wikipedia
+- seti@home
+- slashdot
+- distributed proofreaders (gutenberg project)
+- openstreetmap / google maps
+- firefox
+
+[^ref-benkler]: Benkler, Y. (2016). Peer production, the commons, and the future of the firm. Strategic Organization, 15(2), 264-274. https://doi.org/10.1177/1476127016652606
+
+---
+
+commons-based peer-production has some limits:
+
+- need for monetary compensation
 - emotional involvement is much higher than in regular production
 - spontaneous movements must become organized to survive -> benevolent dictator
 - only focuses on highly rigid systems[^ref-kreiss]
@@ -175,25 +176,25 @@ commons-based peer-production sidesteps:
 
 ### JSTOR
 
-One example of the economic model resisting: __JSTOR__.
+<!-- One example of the economic model resisting to technological change __JSTOR__. -->
 
 ---
 
-rival and non-rival production
+__rival__ and __non-rival__ goods
 
-if i take some, you lose some
+<!--
 
-if i take some, you don't lose anything
+rival: if i take some, you lose some
 
-<!-- Both the consumption and creation of culture were heavily influenced by other technological advances which weren't related to communication technology (i.e. the internet). It stands in the wake of similar technological revolutions, such as the printing press (for books) as well as the gramophone (for music) and the film (for visual arts). As such, it is not so much the internet, but the computer which enabled a new way of doing things; with computing, it became incredibly easier to receive, create and distribute user-generated content. -->
+non-rival: if i take some, you don't lose anything
+
+Both the consumption and creation of culture were heavily influenced by other technological advances which weren't related to communication technology (i.e. the internet). It stands in the wake of similar technological revolutions, such as the printing press (for books) as well as the gramophone (for music) and the film (for visual arts). As such, it is not so much the internet, but the computer which enabled a new way of doing things; with computing, it became incredibly easier to receive, create and distribute user-generated content. -->
 
 ---
 
-why was copyright established in the first place?
+copyright was established to __foster the advancement of arts and sciences__.
 
-to foster the advancement of arts and sciences
-
-publishing assocations that benefit from royalties: mpaa / riaa
+effectively, publishing associations and para-organizations reap the most benefits.
 
 <!--
 
@@ -215,7 +216,11 @@ Universities pay [too much](https://www.zmescience.com/research/how-much-for-jou
 
 ---
 
-![Aaron swartz was an early Internet activist who fought for freedom of access to all.](../docs/digital-culture-2019_assets/Aaron_Swartz.jpg)
+![The growing paywalls](../assets/growing_barriers_science.png)
+
+---
+
+![Aaron swartz was an early Internet activist who fought for freedom of access to all.](../assets/Aaron_Swartz.jpg)
 
 ---
 
@@ -229,17 +234,7 @@ Universities pay [too much](https://www.zmescience.com/research/how-much-for-jou
 
 ---
 
-In order to preserve revenue of copyright, iTunes pioneered the change.
-
-on the one side, the MPAA and RIAA are preserving profit
-
-on the other side, copyrighted content does generate value
-
-as a response, copyleft licenses emerged to preserve the right to copy, remix and re-use:
-
-creative commons
-GNU public license
-Open Access
+In order to preserve revenue of copyright, iTunes pioneered the change by making copy hard, and associating users with accounts.
 
 <!--
 
@@ -247,13 +242,19 @@ Is it stealing if the original owner doesn't lose their copy? The criminalizatio
 
 So copyright in itself is not technically censorship, as the only reasons for copyright to exist are monetary profit and "the advancement of the arts", but copyright holders were the first to show that you can tie someone's digital identity to someone's legal identity. This is what iTunes did: you have a digital product tied to your account.
 
-The question is also raised about cultural appropriation: how come copyright doesn't apply to Gucci when they copy the style of a homeless person?
+On the one side, the MPAA and RIAA are preserving profit. On the other side, copyrighted content does generate value
+
+as a response, copyleft licenses emerged to preserve the right to copy, remix and re-use:
+
+- creative commons
+- GNU public license
+- Open Access
 
 -->
 
 ---
 
-Existing copyright is fundamentally against computers[^ref-doctorow].
+Existing copyright laws is fundamentally against computers[^ref-doctorow] since __computers are low-cost copy machines__.
 
 [^ref-doctorow]: Doctorow, Cory. The Coming War on General Computation, IETF, 2012. <https://archive.ieet.org/articles/doctorow201201.html>
 
@@ -306,11 +307,7 @@ Finally, it has a cultural impact: it changes how users behave in their lives an
 
 ---
 
-what responsibility have platforms had on modern society?
-
-are they responsible for what takes place on the platform?
-
-platforms are the only ones who have [full visibility](https://www.vice.com/en/article/ubers-god-view-was-once-available-to-drivers/)
+platforms are the only ones who have [full visibility](https://www.vice.com/en/article/ubers-god-view-was-once-available-to-drivers/), but eschew responsibility as being only middlemen.
 
 <!-- they have had an impact on the development of markets: connecting everyone, and therefore redistributing power and agency (no middle-management, for instance, in uber).
 
@@ -326,7 +323,7 @@ uber forces drivers to work longer than they want through gamification mechanics
 
 ---
 
-the value creation is co-opted by platforms. how?
+the value creation is co-opted by platforms through:
 
 - information asymetry
 - monopoly
@@ -352,6 +349,8 @@ They can be used by companies such as Facebook, via their Pixel, or Google, via 
 ---
 
 behaviour [within platforms](https://nypost.com/2016/08/24/98-very-personal-secrets-facebook-knows-about-you/) extends across platforms.
+
+<!-- Particularly through the facebook pixel -->
 
 ---
 
@@ -383,7 +382,7 @@ API is an _Application Programming Interface_, it's a very broad term to denote 
 
 ---
 
-![An API regulates the ways in which systems interact with each other](../docs/digital-culture-2019_assets/api_large.png)
+![An API regulates the ways in which systems interact with each other](../assets/api_large.png)
 
 <https://api.deliveroo.com/restaurant/09287328y238746234fd/menu/kebab?value=21>
 
@@ -395,7 +394,7 @@ API is an _Application Programming Interface_, it's a very broad term to denote 
 
 the intermediary becomes just technical apparatus
 
-and creates jobs below the API
+and creates __jobs below the API__
 
 <!--
 

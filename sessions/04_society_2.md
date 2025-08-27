@@ -10,6 +10,8 @@ Welcome!
 
 ## Introduction
 
+Last session, we talked about social communication from a historical perspective, considered broadly. Now, we focus on political communication.
+
 Plan for the session:
 
 - grassroots political organization
@@ -19,6 +21,12 @@ Plan for the session:
 ---
 
 ## Online activism
+
+---
+
+What is online activism today?
+
+<!-- Is it just about posting informations, is it about coordinating? -->
 
 ---
 
@@ -46,7 +54,7 @@ People can coordinate and build great things via forums.
 
 They can also create revolutions[^ref-tufekci].
 
-The most spectacular aspect was the Arab Spring (2011)[^ref-nps].
+The first of which was the Arab Spring, in 2011[^ref-nps].
 
 [^ref-tufekci]: Tufekci, Z. (2017). [Twitter and tear gas: The power and fragility of networked protest](https://www.twitterandteargas.org). Yale University Press.
 
@@ -66,24 +74,27 @@ what was the impact of social media in offline 'revolutions'?
 - feeling of mass-discontent vs. sheep mentality
 - critical mass, spreading awareness, fast propagation
 - archiving discontent
-
-- doxxing
-- limitations in structuring
-- government adapts
+- bypassing state media
 
 -->
 
 ---
 
-What is online activism today?
+What are some social movements that started online? Did they succeed?
 
----
-
-Social movements go beyond the use of new means of communication. It also requires leadership and cracks in the enemy.
+<!--
 
 - Black Lives Matter
 - Woman, Life, Freedom
 - Extinction Rebellion
+
+But communcation is not all.
+
+Social movements go beyond the use of new means of communication. It needs to translate to the ground. It also requires leadership and cracks in the enemy.
+
+They raise awareness, but also get people identified. Back to the double-edged sword.
+
+-->
 
 ---
 
@@ -95,11 +106,15 @@ In the meantime, governments adapted:
 
 [^ref-hintz]: [Restricting Digital Sites of Dissent](https://github.com/pierredepaz/politics-of-code/blob/master/assets/readings/06-people/RestrictingDigitalSitesOfDissent.pdf), Arne Hintz, Critical Discourse Studies, 2016.
 
-<!-- For instance, military in Egypt check people's phones directly in the street for illegal content, and China allows for complaints online, but flags anyone who decides to take to the streets. -->
+<!--
+
+For instance, military in Egypt check people's phones directly in the street for illegal content, and China allows for complaints online, but flags anyone who decides to take to the streets.
+
+-->
 
 ---
 
-![A Slide from the PRISM project from the NSA](../docs/digital-culture-2019_assets/Snowden_Upstream_Prism_01.png)
+![A Slide from the PRISM project from the NSA](../assets/Snowden_Upstream_Prism_01.png)
 
 <!-- See the original report on the extant of the surveillance by the US: [NSA Files Decoded](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded), E. McCaskell, L. Poitras, The Guardian, 2013.
 
@@ -108,7 +123,7 @@ Censorship is only the active phase of a two-part process. The first part is tha
 This surveillance network is composed of three main vectors:
 - upstream: the probing of internet cables to directly intercept internet traffic
 - downstream: the request for confidential information to cooperating commercial entities
-- legal: the use of territorial legal exclusivity in order to access data which transits through the national terrority. since the internet is designed as a distributed system (i.e. a message can potentially go through any node in the network), it is inevitable that any message could enter a legal territory and be subject to its laws (aka PATRIOT Act).
+- legal: the use of territorial legal exclusivity in order to access data which transits through the national terrority. since the internet is designed as a distributed system (i.e. a message can potentially go through any node in the network), it is inevitable that any message could enter a legal territory and be subject to its laws (due to the PATRIOT Act).
 
 -->
 
@@ -132,11 +147,22 @@ What are _computational politics_?
 
 ---
 
-The same thing as counter-revolutions, but in peaceful times:
+> Computational politics refers applying computational methods to large datasets derived from online and off–line data sources for conducting outreach, persuasion and mobilization in the service of electing, furthering or opposing a candidate, a policy or legislation.
 
-- individual targeting
-- real-time adjustment
-- new power brokers
+- the rise of big data
+- the shift from demographics to individual targeting
+- the opacity and power of computational modelling
+- the use of persuasive behavioral science
+- the dynamic real-time experimentation
+- the growth of new power brokers
+
+---
+
+### Election periods
+
+---
+
+The intent is to use computers to push the right buttons. This takes place within a longer history of marketing and politics (e.g. A/B testing).
 
 <!-- If governmental response did take some time to develop, it was mostly because they didn't quite understand the means through which censorship could work in this new ecosystem. While censorship was historically based on specific choke points through which institutions could exert their power (publishing houses, royal approval, etc.).
 
@@ -146,10 +172,6 @@ The means of government censorship manifested themselves in three different ways
 - first, they realized, through the copyright mechanisms mentioned earlier, that it was possible to leverage the incentives and knowledge of commercial platforms in order to constrain the flow of information and to identify the real personas of posters.
 - second, with the ability to identify posters, it became easier to target individual dissenting voices, approaching censorship "from the bottom-up" rather than through blanket prohibition.
 - third, state actors have used the new configuration of the digital public sphere to spread disinformation campaigns, a new, computational form of propaganda through which public discourse is hijacked by a heterogeneous assemblage of real and fake social media accounts. -->
-
----
-
-The real-time adjustment is derived from A/B testing, and results from the cross of marketing techniques and digitization of data.
 
 ---
 
@@ -182,9 +204,26 @@ truth is a mathematical concept, not a political one
 
 ---
 
+- methodologically convenient
+- fake news vs. entertaining content
+- falsehoods spread as fast as truth
+- engagement does not mean belief
+- uninformed vs. misinformed
+- misinformation is overblown
+
+---
+
 Regarding social engineering through fake news, yochai benkler highlights the difference between evidence of __action__ vs. the evidence of __effectiveness__
 
 [cautionary notes on on disinformation and the origins of distrust](https://mediawell.ssrc.org/expert-reflections/cautionary-notes-on-disinformation-benkler/)
+
+---
+
+### Non-election period
+
+---
+
+Computational politics is also the everyday management of citizens _by machines_.
 
 ---
 
@@ -196,7 +235,31 @@ The Hollerith machine, proudly counting U.S. citizens since 1890[^ref-ibm-nazi].
 
 ---
 
-This asymetry of vision of social media leads to self-governance (or self-censorship).
+Modernity ushered in rational organization of school, life, work[^ref-scott].
+
+[^ref-scott]: Scott, James C. _Seeing like a State: How Certain Schemes to Improve the Human Condition Have Failed_. Yale University Press, 2020.
+
+<!-- e.g parcoursup, social benefits allocation in france, establishment of digital identities -->
+
+---
+
+Financial credit system in the US since the 1970s, Social credit systems in China since the 2010s.
+
+---
+
+![France Connect is the unified identity across government services](https://franceconnect.gouv.fr/images/faq/images/connexion-ou-creation.jpeg)
+
+Efficient access vs. effective access.
+
+---
+
+Should we have digital identities?
+
+---
+
+A __panopticon__ is a mode of control
+
+It features asymetry of vision, and identification of protagonists, leads to self-governance (or self-censorship).
 
 > Hence the major effect of the Panopticon: to induce in the inmate a state of conscious and permanent visibility that assures the automatic functioning of power. So to arrange things that the surveillance is permanent in its effects, even if it is discontinuous in its action; that the perfection of power should tend to render its actual exercise unnecessary; that this architectural apparatus should be a machine for creating and sustaining a power relation independent of the person who exercises it; in short, that the inmates should be caught up in a power situation of which they are themselves the bearers. [^ref-foucault]
 
